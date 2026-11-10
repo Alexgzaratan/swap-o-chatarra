@@ -1,0 +1,12 @@
+{
+  // Web estática: Cloudflare ejecuta el build y publica la carpeta dist/
+  "name": "swap-o-chatarra",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "build": {
+    "command": "node build.js"
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}
