@@ -126,7 +126,8 @@ escribir('aviso-legal', pagina({
   ruta: '/aviso-legal/',
   conCalc: false,
   cuerpo: `<h1>Aviso legal</h1>
-<p>[COMPLETAR: titular de la web, NIF y correo de contacto.]</p>
+<h2>Titular</h2>
+<p>Titular de la web: Álex Gutiérrez Gutiérrez<br>NIF: 44918767C${cfg.contacto ? `<br>Contacto: <a href="mailto:${esc(cfg.contacto)}">${esc(cfg.contacto)}</a>` : ''}</p>
 <h2>Enlaces de afiliado</h2>
 <p>Esta web participa en programas de afiliación de tiendas de recambios. Cuando compras a través de un enlace marcado, la tienda nos paga una comisión. El precio para ti es el mismo.</p>
 <h2>Información técnica</h2>
