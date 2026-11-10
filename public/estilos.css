@@ -1,0 +1,31 @@
+:root{--fondo:#141414;--panel:#1f1f1f;--borde:#333;--texto:#eee;--suave:#aaa;--naranja:#ff6b1a;--verde:#3fb950;--amarillo:#e3b341;--rojo:#f85149}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fondo);color:var(--texto);line-height:1.6}
+a{color:var(--naranja)}
+header,footer{padding:16px 20px;border-bottom:1px solid var(--borde)}
+footer{border-top:1px solid var(--borde);border-bottom:0;color:var(--suave);font-size:14px;margin-top:48px}
+.logo{font-weight:800;font-size:20px;text-decoration:none;color:var(--texto)}
+.logo span{color:var(--naranja)}
+main{max-width:760px;margin:0 auto;padding:24px 20px}
+h1{font-size:30px;line-height:1.2;margin:8px 0 12px}
+h2{font-size:22px;margin-top:36px}
+.intro{color:var(--suave)}
+.tarjeta{background:var(--panel);border:1px solid var(--borde);border-radius:12px;padding:20px;margin:20px 0}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,select{width:100%;padding:10px 12px;border-radius:8px;border:1px solid var(--borde);background:#111;color:var(--texto);font-size:16px}
+.check{display:flex;gap:8px;align-items:center;font-weight:400}
+.check input{width:auto}
+.ayuda{font-size:13px;color:var(--suave);margin:2px 0 0}
+button,.boton{display:inline-block;margin-top:16px;background:var(--naranja);color:#111;font-weight:700;border:0;border-radius:8px;padding:12px 18px;font-size:16px;cursor:pointer;text-decoration:none}
+.estado{font-size:22px;font-weight:800;padding:10px 14px;border-radius:8px;margin-bottom:8px}
+.estado.bien{background:rgba(63,185,80,.15);color:var(--verde)}
+.estado.pronto{background:rgba(227,179,65,.15);color:var(--amarillo)}
+.estado.mal{background:rgba(248,81,73,.15);color:var(--rojo)}
+.cifras{padding-left:18px}
+.nota,.aviso{font-size:14px;color:var(--suave)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--borde);vertical-align:top}
+.lista-motores{list-style:none;padding:0;display:grid;gap:10px}
+.lista-motores a{display:block;background:var(--panel);border:1px solid var(--borde);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--texto)}
+.lista-motores small{color:var(--suave)}
+.divulgacion{font-size:13px;color:var(--suave);border-left:3px solid var(--naranja);padding-left:10px}

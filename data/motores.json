@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "vw-1-9-tdi-pd",
+    "nombre": "1.9 TDI bomba-inyector (PD)",
+    "marca": "Volkswagen / Seat / Skoda / Audi",
+    "codigos": "BKC, BXE, BJB, BLS",
+    "anios": "2003-2010",
+    "coches": "Golf V, Seat León II, Ibiza 6L, Octavia II, A3 8P, Touran, Passat B6",
+    "tipo": "Correa seca",
+    "km": 120000,
+    "anos": null,
+    "km_severo": null,
+    "nota": "El intervalo cambia según año y código de motor. Algunos Skoda desde 2007 (BJB, BKC, BXE) indican 150.000 km, pero en los modelos de 2004 a 2006 era de 120.000 km. Aquí usamos 120.000 km para ir del lado seguro. Cambia siempre rodillos, tensor y bomba de agua.",
+    "fuentes": [
+      {
+        "titulo": "Gates – Intervalos de distribución grupo VAG (PDF)",
+        "url": "https://www.techtips.ie/Gates/vag-timing-system-replacement-intervals.pdf"
+      },
+      {
+        "titulo": "Honest John – Intervalo oficial Skoda 1.9 PD desde 2007",
+        "url": "https://www.honestjohn.co.uk/askhj/answer/222583/what-is-the-timing-belt-interval-for-a-skoda-diesel-"
+      }
+    ]
+  },
+  {
+    "slug": "vw-2-0-tdi-common-rail",
+    "nombre": "2.0 TDI common rail",
+    "marca": "Volkswagen / Seat / Skoda / Audi",
+    "codigos": "CFFB, CBAB, CFHC, CLHA, CRBC…",
+    "anios": "2008-2019",
+    "coches": "Golf VI y VII, León III, Octavia II y III, A3, Tiguan, Passat B7 y B8",
+    "tipo": "Correa seca",
+    "km": 210000,
+    "anos": null,
+    "km_severo": null,
+    "nota": "El plan de mantenimiento indica el cambio de correa y tensor a los 210.000 km. En las primeras unidades (2008-2009) algunos libros indicaban 180.000 km. Si el coche tiene muchos años y pocos kilómetros, revisa la correa a partir de los 7 años: el caucho envejece aunque no se use.",
+    "fuentes": [
+      {
+        "titulo": "CompleteCar – Octavia 2.0 TDI 150: cada 210.000 km",
+        "url": "https://www.completecar.ie/askusanything/question/16169/Timing-belt-change-on-132-Skoda-Octavia"
+      },
+      {
+        "titulo": "CompleteCar – Tiguan: 210.000 km desde 2010",
+        "url": "https://completecar.ie/used-car-reviews/review/10933/Volkswagen-Tiguan-Mk1-2008-2015-used-car-buying-guide/servicing-timing-belt-interval.html"
+      },
+      {
+        "titulo": "Dieselschrauber – Libro de mantenimiento Golf 2009: 180.000 km en 2.0 TDI CR",
+        "url": "https://community.dieselschrauber.org/en/viewtopic.php?p=174251"
+      }
+    ]
+  },
+  {
+    "slug": "psa-1-6-hdi-dv6",
+    "nombre": "1.6 HDi (DV6)",
+    "marca": "Peugeot / Citroën",
+    "codigos": "9HX, 9HZ, 9HR, 9HP…",
+    "anios": "2004-2016",
+    "coches": "Peugeot 207, 208, 307, 308, Partner; Citroën C3, C4, Berlingo",
+    "tipo": "Correa seca",
+    "km": 240000,
+    "anos": 10,
+    "km_severo": 180000,
+    "nota": "Peugeot indica 240.000 km en condiciones normales y 180.000 km en condiciones severas, con un máximo de 10 años. Muchos talleres consideran optimista el intervalo normal y lo adelantan.",
+    "fuentes": [
+      {
+        "titulo": "Autofácil – Respuesta del departamento técnico de Peugeot (207 1.6 HDi)",
+        "url": "https://www.autofacil.es/consultorio/tecnico/debo-cambiar-correa-peugeot-207/58226.html"
+      },
+      {
+        "titulo": "L'argus – Tabla de intervalos PSA",
+        "url": "https://www.largus.fr/forum-auto/tutoriels-et-topics-de-reference/tuto-preconisations-changement-courroies-de-distribution/243826.html"
+      }
+    ]
+  },
+  {
+    "slug": "renault-1-5-dci-k9k",
+    "nombre": "1.5 dCi (K9K)",
+    "marca": "Renault / Dacia / Nissan",
+    "codigos": "K9K 636, 837, 846, 884…",
+    "anios": "2008-2018",
+    "coches": "Clio III y IV, Mégane III, Scénic III, Captur, Dacia Sandero y Duster, Nissan Qashqai",
+    "tipo": "Correa seca",
+    "km": 160000,
+    "anos": 6,
+    "km_severo": null,
+    "nota": "En el Scénic III el intervalo es de 160.000 km o 6 años. Algunas versiones de 90 CV (Captur) indican 150.000 km. Los K9K anteriores a 2008 llevaban intervalos más cortos (unos 120.000 km): si tu coche es antiguo, consulta el libro de mantenimiento.",
+    "fuentes": [
+      {
+        "titulo": "Autodoc vía Sensor Automotriz – Scénic 3 1.5 dCi: 160.000 km / 6 años",
+        "url": "https://sensorautomotriz.com/preguntas-frecuentes/el-renault-1-5-dci-tiene-correa-o-cadena-de-distribucion"
+      },
+      {
+        "titulo": "Autodoc vía Sensor Automotriz – Captur 1.5 dCi 90: 150.000 km / 6 años",
+        "url": "https://sensorautomotriz.com/preguntas-frecuentes/cuando-cambiar-la-correa-de-distribucion-de-un-renault-clio-1-5-dci"
+      }
+    ]
+  },
+  {
+    "slug": "stellantis-1-2-puretech",
+    "nombre": "1.2 PureTech (correa en aceite)",
+    "marca": "Peugeot / Citroën / Opel / DS",
+    "codigos": "EB2 (HMZ, HNZ, HNS…)",
+    "anios": "2014-2022",
+    "coches": "Peugeot 208, 2008, 308, 3008; Citroën C3, C4, C3 Aircross; Opel Corsa F",
+    "tipo": "Correa en aceite (húmeda)",
+    "km": 100000,
+    "anos": 6,
+    "km_severo": null,
+    "nota": "Stellantis rebajó el intervalo de 175.000 km o 10 años a 100.000 km o 6 años. Desde mediados de 2022 el motor de tercera generación lleva cadena: si tu coche es de 2023 en adelante, probablemente no te afecta. Usa siempre el aceite exacto que indica el fabricante.",
+    "fuentes": [
+      {
+        "titulo": "L'argus – 1.2 PureTech: el intervalo pasa a 6 años o 100.000 km",
+        "url": "https://www.largus.fr/actualite-automobile/moteur-12-puretech-psa-quand-remplacer-la-courroie-de-distribution-10590390.html"
+      },
+      {
+        "titulo": "Autofácil – Solución de Stellantis para el 1.2 PureTech",
+        "url": "https://www.autofacil.es/mantenimiento/stellantis-solucion-motor-puretech/688560.html"
+      }
+    ]
+  },
+  {
+    "slug": "ford-1-0-ecoboost",
+    "nombre": "1.0 EcoBoost (correa en aceite)",
+    "marca": "Ford",
+    "codigos": "M1JA, M1JC, M1DA…",
+    "anios": "2012-2019",
+    "coches": "Fiesta, Focus III, EcoSport, B-Max, C-Max",
+    "tipo": "Correa en aceite (húmeda)",
+    "km": 160000,
+    "anos": 6,
+    "km_severo": null,
+    "nota": "Ford fijaba al principio 240.000 km o 10 años y lo redujo a 160.000 km o 6 años. Hacia 2019 el 1.0 EcoBoost pasó a llevar cadena. Usa solo aceite con la especificación Ford del manual.",
+    "fuentes": [
+      {
+        "titulo": "Motor16 – Ford reduce el intervalo del 1.0 EcoBoost a 160.000 km o 6 años",
+        "url": "https://www.motor16.com/noticias/correa-distribucion-ford-ecoboost-nhtsa/"
+      },
+      {
+        "titulo": "Autofácil – Correas bañadas en aceite: intervalos y problemas",
+        "url": "https://www.autofacil.es/correa-distribucion-banada-aceite-motores-problemas/"
+      }
+    ]
+  }
+]
