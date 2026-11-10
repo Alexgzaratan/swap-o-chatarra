@@ -6,6 +6,8 @@ const raiz = __dirname;
 const dist = path.join(raiz, 'dist');
 const cfg = JSON.parse(fs.readFileSync(path.join(raiz, 'data/config.json'), 'utf8'));
 const motores = JSON.parse(fs.readFileSync(path.join(raiz, 'data/motores.json'), 'utf8'));
+const repro = JSON.parse(fs.readFileSync(path.join(raiz, 'data/repro.json'), 'utf8'));
+const rango = ([a, b], u) => (a === b ? `${a} ${u}` : `${a}–${b} ${u}`);
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const km = (n) => n.toLocaleString('es-ES') + ' km';
@@ -24,13 +26,13 @@ function pagina({ titulo, descripcion, ruta, cuerpo, conCalc }) {
 <link rel="stylesheet" href="/estilos.css">
 </head>
 <body>
-<header><a class="logo" href="/">Swap <span>o</span> Chatarra</a></header>
+<header><a class="logo" href="/">Swap <span>o</span> Chatarra</a><nav><a href="/">Distribución</a><a href="/repro/">Repro</a></nav></header>
 <main>
 ${cuerpo}
 </main>
 <footer>
 <p class="divulgacion">Algunos enlaces de esta web son de afiliado: si compras a través de ellos, la tienda nos paga una comisión sin que a ti te cueste más.</p>
-<p>Los intervalos son de referencia y pueden variar según año, versión y uso. Confirma siempre con el libro de mantenimiento de tu coche o con tu taller. · <a href="/aviso-legal/">Aviso legal</a></p>
+<p>Los intervalos y las potencias son de referencia y pueden variar según año, versión y uso. Confirma siempre con el libro de mantenimiento de tu coche o con tu taller. · <a href="/aviso-legal/">Aviso legal</a></p>
 </footer>
 ${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify(motores.map(({ slug, nombre, km, anos, km_severo }) => ({ slug, nombre, km, anos, km_severo })))}</script>
 <script>window.ENLACE_KIT=${JSON.stringify(enlaceKit)};</script>
@@ -84,6 +86,7 @@ escribir('', pagina({
   cuerpo: `<h1>¿Cuándo te toca cambiar la distribución?</h1>
 <p class="intro">Elige tu motor, pon tus kilómetros y la fecha del último cambio. Te decimos cuánto te queda antes de jugártela.</p>
 ${calculadora(motores[0].slug)}
+<p><a class="boton" href="/repro/">¿Cuánto gana tu motor con una repro?</a></p>
 <h2>Motores disponibles</h2>
 <ul class="lista-motores">${lista}</ul>`,
 }));
@@ -114,6 +117,58 @@ ${severo}
 </table>
 <h2>Lo que tienes que saber</h2>
 <p>${esc(m.nota)}</p>
+${(() => { const r = repro.filter((x) => x.distribucion === m.slug); return r.length ? `<h2>¿Y si lo reprogramas?</h2><ul>${r.map((x) => `<li><a href="/repro/${x.slug}/">${esc(x.nombre)}: de ${x.cv} a ${rango(x.cv1, 'CV')}</a></li>`).join('')}</ul>` : ''; })()}
+<h2>Fuentes</h2>
+<ul>${fuentes}</ul>`,
+  }));
+}
+
+// Repro: índice y una página por versión
+const avisoLegal = `<div class="tarjeta"><h2 style="margin-top:0">Antes de reprogramar: lo legal</h2>
+<p>En España, subir la potencia de un coche es una <b>reforma de importancia</b>: hay que homologarla con un informe técnico, pasar una ITV extraordinaria y actualizar la ficha técnica. Avisa también a tu seguro: si no consta, puede negarse a cubrir un siniestro.</p>
+<p>Una repro que anule el filtro de partículas, la EGR o el AdBlue no se puede legalizar.</p>
+<p class="nota">Cifras orientativas en CV y Nm según preparadores; cada coche da lo suyo en banco. La ganancia real depende del estado del motor, el combustible y la centralita.</p></div>`;
+const filas = repro
+  .map((x) => `<tr><td><a href="/repro/${x.slug}/">${esc(x.nombre)}</a><br><small>${esc(x.marca)}</small></td><td>${x.cv} CV / ${x.nm} Nm</td><td><b>${rango(x.cv1, 'CV')}</b><br>${rango(x.nm1, 'Nm')}</td></tr>`)
+  .join('');
+escribir('repro', pagina({
+  titulo: 'Repro Stage 1: cuántos CV y Nm gana cada motor | Swap o Chatarra',
+  descripcion: 'Potencia y par de serie y tras una reprogramación Stage 1 de los motores más comunes en España, con fuentes y lo que dice la ley.',
+  ruta: '/repro/',
+  conCalc: false,
+  cuerpo: `<h1>¿Cuánto gana tu motor con una repro?</h1>
+<p class="intro">Potencia y par de serie frente a una Stage 1 (solo software, sin cambiar piezas), según varios preparadores.</p>
+<table><tr><th>Motor</th><th>De serie</th><th>Stage 1</th></tr>${filas}</table>
+${avisoLegal}`,
+}));
+for (const x of repro) {
+  const pct = Math.round(((x.cv1[0] + x.cv1[1]) / 2 / x.cv - 1) * 100);
+  const fuentes = x.fuentes.map((f) => `<li><a href="${esc(f.url)}" rel="nofollow noopener" target="_blank">${esc(f.titulo)}</a></li>`).join('');
+  escribir(`repro/${x.slug}`, pagina({
+    titulo: `Repro ${x.nombre}: ${rango(x.cv1, 'CV')} y ${rango(x.nm1, 'Nm')} en Stage 1 | Swap o Chatarra`,
+    descripcion: `Cuánto gana el ${x.nombre} (${x.marca}) con una reprogramación Stage 1: de ${x.cv} CV y ${x.nm} Nm a ${rango(x.cv1, 'CV')} y ${rango(x.nm1, 'Nm')}.`,
+    ruta: `/repro/${x.slug}/`,
+    conCalc: false,
+    cuerpo: `<p><a href="/repro/">← Todos los motores</a></p>
+<h1>Repro del ${esc(x.nombre)}: ¿cuánto gana?</h1>
+<p class="intro">Con una Stage 1 pasa de <b>${x.cv} CV</b> a <b>${rango(x.cv1, 'CV')}</b>, alrededor de un ${pct} % más.</p>
+<table>
+<tr><th></th><th>De serie</th><th>Stage 1</th></tr>
+<tr><th>Potencia</th><td>${x.cv} CV</td><td><b>${rango(x.cv1, 'CV')}</b></td></tr>
+<tr><th>Par</th><td>${x.nm} Nm</td><td><b>${rango(x.nm1, 'Nm')}</b></td></tr>
+</table>
+<h2>Datos del motor</h2>
+<table>
+<tr><th>Marcas</th><td>${esc(x.marca)}</td></tr>
+<tr><th>Combustible</th><td>${esc(x.tipo)}</td></tr>
+<tr><th>Códigos de motor</th><td>${esc(x.codigos)}</td></tr>
+<tr><th>Años aproximados</th><td>${esc(x.anios)}</td></tr>
+<tr><th>Coches que lo montan</th><td>${esc(x.coches)}</td></tr>
+</table>
+<h2>Lo que tienes que saber</h2>
+<p>${esc(x.nota)}</p>
+${x.distribucion ? `<p>Antes de meterle más potencia, comprueba la distribución: <a href="/distribucion/${x.distribucion}/">¿cuándo toca cambiarla en este motor?</a></p>` : ''}
+${avisoLegal}
 <h2>Fuentes</h2>
 <ul>${fuentes}</ul>`,
   }));
@@ -135,7 +190,7 @@ escribir('aviso-legal', pagina({
 }));
 
 // sitemap y robots
-const urls = ['/', ...motores.map((m) => `/distribucion/${m.slug}/`)];
+const urls = ['/', ...motores.map((m) => `/distribucion/${m.slug}/`), '/repro/', ...repro.map((x) => `/repro/${x.slug}/`)];
 fs.writeFileSync(path.join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${cfg.url_base}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${cfg.url_base}/sitemap.xml\n`);

@@ -1,0 +1,498 @@
+[
+ {
+  "slug": "vw-1-9-tdi-105",
+  "nombre": "1.9 TDI 105 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "BKC, BXE, BLS",
+  "anios": "2003-2010",
+  "coches": "Golf V, León II, Altea, Octavia II, A3 8P, Touran",
+  "cv": 105,
+  "nm": 250,
+  "cv1": [
+   140,
+   145
+  ],
+  "nm1": [
+   320,
+   325
+  ],
+  "distribucion": "vw-1-9-tdi-pd",
+  "nota": "Uno de los motores que mejor responde a la repro. Con muchos kilómetros, revisa embrague y volante bimasa antes: son lo primero que sufre con el par extra.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Golf V 1.9 TDI 105",
+    "url": "https://www.cscmotors.com/remapping-stats/Volkswagen/golf/golf-5-2003-2008/golf-1-9-tdi-105hp-5711"
+   },
+   {
+    "titulo": "Chiptuning Reseller – León 1P 1.9 TDI 105",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/seat/leon/1p-2005-2012/19-tdi/4633"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-9-tdi-130",
+  "nombre": "1.9 TDI 130 CV",
+  "marca": "Volkswagen / Seat / Audi",
+  "tipo": "Diésel",
+  "codigos": "ASZ",
+  "anios": "2000-2006",
+  "coches": "Golf IV, Bora, León I, Ibiza 6L FR, A3 8L",
+  "cv": 130,
+  "nm": 310,
+  "cv1": [
+   164,
+   170
+  ],
+  "nm1": [
+   368,
+   390
+  ],
+  "distribucion": null,
+  "nota": "El ASZ admite bien la repro, pero el embrague de serie suele quedarse corto con el par de una Stage 1. Cuenta con cambiarlo si ya tiene muchos kilómetros.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf IV 1.9 TDI 130",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-iv-1997-2003/19-tdi/5061"
+   },
+   {
+    "titulo": "Dyno-ChiptuningFiles – Bora 1.9 TDI 130 (ASZ)",
+    "url": "https://dyno-chiptuningfiles.com/chiptuning-file/volkswagen-bora-19-tdi-130hp"
+   }
+  ]
+ },
+ {
+  "slug": "vw-2-0-tdi-140-pd",
+  "nombre": "2.0 TDI 140 CV (bomba-inyector)",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "BKD, AZV",
+  "anios": "2003-2008",
+  "coches": "Golf V, León II, Octavia II, A3 8P, Passat B6",
+  "cv": 140,
+  "nm": 320,
+  "cv1": [
+   180,
+   183
+  ],
+  "nm1": [
+   400,
+   403
+  ],
+  "distribucion": null,
+  "nota": "Antes de reprogramar, comprueba el estado de la bomba de aceite y el turbo: son los puntos débiles conocidos de este motor.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Golf V 2.0 TDI 140",
+    "url": "https://www.cscmotors.com/remapping-stats/Volkswagen/golf/golf-5-2003-2008/golf-2-0-tdi-140hp-5715"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Golf V 2.0 TDI 140",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-v-2003-2008/20-tdi/19623"
+   }
+  ]
+ },
+ {
+  "slug": "vw-2-0-tdi-cr-140",
+  "nombre": "2.0 TDI CR 140 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "CBAA, CBAB, CFFB",
+  "anios": "2008-2013",
+  "coches": "Golf VI, León II restyling, Octavia II, A3 8P, Tiguan, Passat B7",
+  "cv": 140,
+  "nm": 320,
+  "cv1": [
+   183,
+   185
+  ],
+  "nm1": [
+   408,
+   420
+  ],
+  "distribucion": "vw-2-0-tdi-common-rail",
+  "nota": "Motor muy agradecido con la repro. Si lleva filtro de partículas, que el taller no lo anule: es ilegal y puede hacerte suspender la ITV.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf VI 2.0 TDI CR 140",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vi-2008-2012/20-tdi-cr/5096"
+   },
+   {
+    "titulo": "ND Auto Repairs – Golf 6 2.0 TDI CR 140",
+    "url": "https://ndautorepairs.co.uk/remapping/volkswagen-golf-golf-6-2009-2012-2-0-tdi-cr-140hp/"
+   }
+  ]
+ },
+ {
+  "slug": "vw-2-0-tdi-150",
+  "nombre": "2.0 TDI 150 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "CRBC, CRLB, DFGA",
+  "anios": "2012-2020",
+  "coches": "Golf VII, León III, Octavia III, A3 8V, Passat B8, Tiguan II",
+  "cv": 150,
+  "nm": 320,
+  "cv1": [
+   190,
+   199
+  ],
+  "nm1": [
+   420,
+   434
+  ],
+  "distribucion": "vw-2-0-tdi-common-rail",
+  "nota": "Muy habitual en España. Con cambio DSG conviene que el taller ajuste también la caja, porque limita el par de serie.",
+  "fuentes": [
+   {
+    "titulo": "LM – Golf 7 2.0 TDI CR 150",
+    "url": "https://lessandmore.file-service.com/tuning-specs/volkswagen/golf/golf-7-2012-2016/20-tdi-cr-150hp"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Golf VII 2.0 TDI 150",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vii-mk2-022017-2020/20-tdi/19910"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-6-tdi-105",
+  "nombre": "1.6 TDI CR 105 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "CAYC",
+  "anios": "2009-2015",
+  "coches": "Golf VI, Ibiza 6J, León II, Polo 6R, Fabia II, A3 8P",
+  "cv": 105,
+  "nm": 250,
+  "cv1": [
+   140,
+   150
+  ],
+  "nm1": [
+   320,
+   330
+  ],
+  "distribucion": null,
+  "nota": "Comparte bloque con las versiones de 75 y 90 CV, que solo están limitadas por software. Revisa antes la válvula EGR, su avería más común.",
+  "fuentes": [
+   {
+    "titulo": "ND Auto Repairs – Golf 6 1.6 TDI 105",
+    "url": "https://ndautorepairs.co.uk/remapping/volkswagen-golf-golf-6-2009-2012-1-6-tdi-105hp/"
+   },
+   {
+    "titulo": "Dyno-ChiptuningFiles – Golf 1.6 TDI CR 105",
+    "url": "https://dyno-chiptuningfiles.com/chiptuning-file/volkswagen-golf-16-tdi-cr-105hp"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-6-hdi-110",
+  "nombre": "1.6 HDi 110 CV",
+  "marca": "Peugeot / Citroën",
+  "tipo": "Diésel",
+  "codigos": "DV6TED4 (9HZ)",
+  "anios": "2004-2010",
+  "coches": "Peugeot 207, 307, 308, 3008, 5008; Citroën C4, C4 Picasso, Berlingo",
+  "cv": 110,
+  "nm": 240,
+  "cv1": [
+   131,
+   135
+  ],
+  "nm1": [
+   295,
+   325
+  ],
+  "distribucion": "psa-1-6-hdi-dv6",
+  "nota": "La ganancia es más modesta que en los TDI. Antes de reprogramar, revisa las arandelas de los inyectores y el turbo: son sus fallos típicos.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – 308 1.6 HDi 110",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/308/ph1-2007-2013/16-hdi/3818"
+   },
+   {
+    "titulo": "Chiptuning Reseller – 5008 1.6 HDi 110",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/5008/825-2013/3915-16-hdi/3915"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-5-bluehdi-130",
+  "nombre": "1.5 BlueHDi 130 CV",
+  "marca": "Peugeot / Citroën / Opel / DS",
+  "tipo": "Diésel",
+  "codigos": "DV5RC (YHZ)",
+  "anios": "2017-actualidad",
+  "coches": "Peugeot 308, 2008, 3008, 508; Citroën C5 Aircross; Opel Astra L",
+  "cv": 130,
+  "nm": 300,
+  "cv1": [
+   160,
+   164
+  ],
+  "nm1": [
+   350,
+   352
+  ],
+  "distribucion": null,
+  "nota": "Motor con AdBlue y filtro de partículas: la repro debe mantenerlos activos. Anularlos es ilegal.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – 2008 1.5 BlueHDi 130",
+    "url": "https://www.cscmotors.com/remapping-stats/Peugeot/2008/2019/2008-1-5-bluehdi-130hp-4163"
+   },
+   {
+    "titulo": "Chiptuning Reseller – 308 1.5 BlueHDi 130",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/308/ph3-092017-2021/15-bluehdi/3843"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-2-puretech-110",
+  "nombre": "1.2 PureTech 110 CV",
+  "marca": "Peugeot / Citroën / Opel",
+  "tipo": "Gasolina",
+  "codigos": "EB2DT",
+  "anios": "2014-2022",
+  "coches": "Peugeot 208, 2008, 308; Citroën C3, C4 Cactus; Opel Corsa F",
+  "cv": 110,
+  "nm": 205,
+  "cv1": [
+   141,
+   145
+  ],
+  "nm1": [
+   266,
+   270
+  ],
+  "distribucion": "stellantis-1-2-puretech",
+  "nota": "Ojo con la correa de distribución en aceite: si no se ha cambiado según el nuevo intervalo, cámbiala antes de reprogramar.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – 208 1.2 PureTech 110",
+    "url": "https://www.cscmotors.com/remapping-stats/Peugeot/208/2012-2015/208-1-2t-puretech-110hp-4198"
+   },
+   {
+    "titulo": "Chiptuning Reseller – 208 1.2 PureTech 110",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/208/062015-2019/12t-puretech/19501"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-2-puretech-130",
+  "nombre": "1.2 PureTech 130 CV",
+  "marca": "Peugeot / Citroën / Opel",
+  "tipo": "Gasolina",
+  "codigos": "EB2DTS",
+  "anios": "2014-2022",
+  "coches": "Peugeot 208, 2008, 308, 3008, 5008; Citroën C4, C5 Aircross",
+  "cv": 130,
+  "nm": 230,
+  "cv1": [
+   142,
+   150
+  ],
+  "nm1": [
+   247,
+   270
+  ],
+  "distribucion": "stellantis-1-2-puretech",
+  "nota": "Ganancia pequeña porque ya sale apretado de fábrica. Igual que el de 110 CV: revisa la correa en aceite antes de nada.",
+  "fuentes": [
+   {
+    "titulo": "ND Auto Repairs – 5008 1.2 PureTech 130",
+    "url": "https://ndautorepairs.co.uk/remapping/peugeot-5008-2013-2016-1-2t-puretech-130hp/"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Rifter 1.2 PureTech 130",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/rifter/2018/12-puretech-gpf/4008"
+   }
+  ]
+ },
+ {
+  "slug": "renault-1-5-dci-110",
+  "nombre": "1.5 dCi 110 CV",
+  "marca": "Renault / Dacia / Nissan",
+  "tipo": "Diésel",
+  "codigos": "K9K",
+  "anios": "2008-2018",
+  "coches": "Mégane III, Scénic III, Fluence, Clio IV, Captur, Kadjar, Qashqai",
+  "cv": 110,
+  "nm": 260,
+  "cv1": [
+   134,
+   135
+  ],
+  "nm1": [
+   304,
+   304
+  ],
+  "distribucion": "renault-1-5-dci-k9k",
+  "nota": "Según la versión, el par de serie es de 240 o 260 Nm. Vigila los cojinetes de biela si el coche ha tenido cambios de aceite espaciados: es el punto débil del K9K.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Mégane III 1.5 dCi 110",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/renault/megane/megane-3-ph1-2008-2012/15-dci/4356"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Fluence 1.5 dCi 110",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/renault/fluence/2009-2014/15dci/4234"
+   }
+  ]
+ },
+ {
+  "slug": "renault-1-5-dci-90",
+  "nombre": "1.5 dCi 90 CV",
+  "marca": "Renault / Dacia / Nissan",
+  "tipo": "Diésel",
+  "codigos": "K9K",
+  "anios": "2008-2018",
+  "coches": "Mégane III, Clio IV, Dacia Sandero, Logan, Duster, Dokker",
+  "cv": 90,
+  "nm": 200,
+  "cv1": [
+   110,
+   112
+  ],
+  "nm1": [
+   250,
+   252
+  ],
+  "distribucion": "renault-1-5-dci-k9k",
+  "nota": "Comparte bloque con el de 110 CV. Las mismas precauciones con el aceite y los cojinetes.",
+  "fuentes": [
+   {
+    "titulo": "ND Auto Repairs – Mégane 3 1.5 dCi 90",
+    "url": "https://ndautorepairs.co.uk/remapping/renault-megane-3-ph1-2008-2012-1-5-dci-90hp/"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Mégane III 1.5 dCi 90",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/renault/megane/megane-3-ph1-2008-2012/15-dci/4354"
+   }
+  ]
+ },
+ {
+  "slug": "ford-1-0-ecoboost-125",
+  "nombre": "1.0 EcoBoost 125 CV",
+  "marca": "Ford",
+  "tipo": "Gasolina",
+  "codigos": "M1DA, M1JC",
+  "anios": "2012-2021",
+  "coches": "Fiesta, Focus III y IV, EcoSport, B-Max, C-Max",
+  "cv": 125,
+  "nm": 200,
+  "cv1": [
+   145,
+   149
+  ],
+  "nm1": [
+   240,
+   244
+  ],
+  "distribucion": "ford-1-0-ecoboost",
+  "nota": "Hasta 2019 lleva correa en aceite: cámbiala antes si está cerca del intervalo. El par de serie es de 170 Nm con 200 Nm en sobrepresión.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Focus 1.0 EcoBoost 125",
+    "url": "https://www.cscmotors.com/remapping-stats/Ford/focus/2018/focus-1-0-ecoboost-125hp-2390"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Focus Mk3 1.0 EcoBoost 125",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/ford/focus/mk3-ph1-2011-2014/10t-ecoboost/19325"
+   }
+  ]
+ },
+ {
+  "slug": "mercedes-c220-cdi-170",
+  "nombre": "C 220 CDI 170 CV (W204)",
+  "marca": "Mercedes-Benz",
+  "tipo": "Diésel",
+  "codigos": "OM651",
+  "anios": "2009-2014",
+  "coches": "Clase C W204, Clase E W212, Sprinter (versiones equivalentes)",
+  "cv": 170,
+  "nm": 400,
+  "cv1": [
+   202,
+   205
+  ],
+  "nm1": [
+   497,
+   500
+  ],
+  "distribucion": null,
+  "nota": "En las primeras W204 con centralita Delphi (2007-2009) la ganancia anunciada es mucho menor, de unos 15 CV. Con cambio automático, confirma con el taller que la caja aguanta el par.",
+  "fuentes": [
+   {
+    "titulo": "Elaborazioni Taglienti – C 220 CDI 170 (W204 2010-2014)",
+    "url": "https://elaborazioni-taglienti.file-service.com/tuning-specs/mercedes-benz/c/w204-2010-2014/220-cdi-170hp-4340"
+   },
+   {
+    "titulo": "Chiptuning Reseller – C 220 CDI W204 2010-2015",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/mercedes-benz/c/w204-2010-2015/220-cdi/2845"
+   }
+  ]
+ },
+ {
+  "slug": "bmw-320d-184-n47",
+  "nombre": "320d 184 CV (N47)",
+  "marca": "BMW",
+  "tipo": "Diésel",
+  "codigos": "N47D20C",
+  "anios": "2011-2015",
+  "coches": "Serie 3 F30/F31, Serie 4 F32, Serie 1 F20 (120d)",
+  "cv": 184,
+  "nm": 380,
+  "cv1": [
+   220,
+   225
+  ],
+  "nm1": [
+   440,
+   445
+  ],
+  "distribucion": null,
+  "nota": "El N47 lleva cadena de distribución trasera con fama de estirarse. Si suena en frío, arréglalo antes de reprogramar.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – 320d 184 F3x",
+    "url": "https://cscmotors.com/remapping-stats/BMW/3-series/f3x-2011-2015/320d-184hp-1099"
+   },
+   {
+    "titulo": "Chiptuning Reseller – 320d F3x 2011-2015",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/bmw/3-serie/f3x-122011-2015/320d/9232"
+   }
+  ]
+ },
+ {
+  "slug": "opel-1-6-cdti-136",
+  "nombre": "1.6 CDTI 136 CV",
+  "marca": "Opel",
+  "tipo": "Diésel",
+  "codigos": "B16DTH",
+  "anios": "2014-2019",
+  "coches": "Astra J y K, Insignia, Zafira C, Mokka X",
+  "cv": 136,
+  "nm": 320,
+  "cv1": [
+   158,
+   165
+  ],
+  "nm1": [
+   378,
+   380
+  ],
+  "distribucion": null,
+  "nota": "Motor moderno con AdBlue en algunas versiones: la repro tiene que mantener todos los sistemas anticontaminación.",
+  "fuentes": [
+   {
+    "titulo": "ND Auto Repairs – Astra J 1.6 CDTi 136",
+    "url": "https://ndautorepairs.co.uk/remapping/opel-astra-j-2009-2015-1-6-cdti-136hp/"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Insignia 1.6 CDTI 136",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/opel/insignia-insignia-grand-sport/2015-2017/16-cdti/3639"
+   }
+  ]
+ }
+]
