@@ -2,6 +2,7 @@
   // Web estática: Cloudflare ejecuta el build y publica la carpeta dist/
   "name": "swap-o-chatarra",
   "compatibility_date": "2026-11-01",
+  "main": "worker.js",
   "workers_dev": true,
   "routes": [
     { "pattern": "swapochatarra.com", "custom_domain": true },
@@ -11,6 +12,8 @@
     "command": "node build.js"
   },
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true
   }
 }

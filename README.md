@@ -2,7 +2,7 @@
 
 Web estática generada con `node build.js` a partir de los JSON de `data/`. Sin dependencias.
 
-- Cloudflare: comando de build `node build.js`, carpeta de salida `dist`.
+- Cloudflare: comando de build `node build.js`, carpeta de salida `dist`. Dominio: swapochatarra.com. `worker.js` redirige la dirección workers.dev y la www al dominio.
 - `data/motores.json`: motores con correa de distribución (intervalo, nota, fuentes y, si hay precio propio, `coste`).
 - `data/vehiculos.json`: coches de la calculadora de distribución. Cada versión apunta a un motor con `motor`.
 - `data/repro.json`: versiones de repro (potencia y par de serie y Stage 1).
