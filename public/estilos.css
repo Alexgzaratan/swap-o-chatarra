@@ -66,3 +66,4 @@ input[type=search]{font-size:17px;padding:12px 14px}
 .b{height:100%;border-radius:6px}
 .b.serie{background:#555}
 .b.st1{background:var(--naranja)}
+[hidden]{display:none!important}
