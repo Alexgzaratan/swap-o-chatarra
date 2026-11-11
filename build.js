@@ -46,6 +46,7 @@ ${cuerpo}
 ${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify(motores.map(({ slug, nombre, codigos, km, anos, km_severo }) => ({ slug, nombre, codigos, km, anos, km_severo })))}</script>
 <script id="datos-vehiculos" type="application/json">${JSON.stringify(vehiculos)}</script>
 <script>window.ENLACE_KIT=${JSON.stringify(enlaceKit)};</script>
+<script src="/selector.js" defer></script>
 <script src="/calc.js" defer></script>` : ''}
 ${extra}
 </body>
@@ -57,13 +58,7 @@ function calculadora(fijo) {
   // fijo: slug del motor en las páginas de motor. Sin él, se elige por marca, modelo, generación y motor.
   const eleccion = fijo
     ? `<input type="hidden" id="motor" name="motor" value="${fijo}">`
-    : `<div class="pasos">
-<div><label for="marca">1. Marca</label><select id="marca"><option value="">Elige marca</option></select></div>
-<div><label for="modelo">2. Modelo</label><select id="modelo" disabled><option value="">Elige modelo</option></select></div>
-<div><label for="generacion">3. Año / generación</label><select id="generacion" disabled><option value="">Elige año</option></select></div>
-<div><label for="version">4. Motor</label><select id="version" disabled><option value="">Elige motor</option></select></div>
-</div>
-<p class="ayuda">¿No sabes tu motor? Mira la potencia en la ficha técnica (viene en kW: multiplica por 1,36 para pasar a CV) o en el libro de mantenimiento.</p>
+    : `<div id="selCoche" class="selector-coche"></div>
 <input type="hidden" id="motor" name="motor" value="">
 <div id="motorElegido" class="elegido" hidden></div>
 <p class="ayuda"><a href="#motores">¿No sale tu coche? Elige directamente el motor de la lista.</a></p>`;
@@ -160,17 +155,12 @@ escribir('repro', pagina({
   conCalc: false,
   extra: `<script id="datos-vehiculos-repro" type="application/json">${JSON.stringify(vehiculosRepro)}</script>
 <script id="datos-repro" type="application/json">${JSON.stringify(repro.map(({ slug, nombre, codigos, cv, nm, cv1, nm1 }) => ({ slug, nombre, codigos, cv, nm, cv1, nm1 })))}</script>
+<script src="/selector.js" defer></script>
 <script src="/repro.js" defer></script>`,
   cuerpo: `<h1>¿Cuánto gana tu motor con una repro?</h1>
 <p class="intro">Elige tu coche y te decimos cuánta potencia y par gana con una Stage 1 (solo software, sin cambiar piezas), según varios preparadores.</p>
-<div id="selRepro" class="tarjeta">
-<div class="pasos">
-<div><label for="marca">1. Marca</label><select id="marca"><option value="">Elige marca</option></select></div>
-<div><label for="modelo">2. Modelo</label><select id="modelo" disabled><option value="">Elige modelo</option></select></div>
-<div><label for="generacion">3. Año / generación</label><select id="generacion" disabled><option value="">Elige año</option></select></div>
-<div><label for="version">4. Motor</label><select id="version" disabled><option value="">Elige motor</option></select></div>
-</div>
-<p class="ayuda">¿No sabes tu motor? Mira la potencia en la ficha técnica (viene en kW: multiplica por 1,36 para pasar a CV).</p>
+<div class="tarjeta">
+<div id="selRepro" class="selector-coche"></div>
 <div id="resultadoRepro" aria-live="polite"></div>
 <p class="ayuda"><a href="#tabla">¿No sale tu coche? Mira la tabla de todos los motores.</a></p>
 </div>

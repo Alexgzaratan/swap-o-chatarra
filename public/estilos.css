@@ -39,3 +39,30 @@ select:disabled{opacity:.45}
 .elegido{margin-top:14px;padding:10px 12px;border-left:3px solid var(--naranja);background:#181818;border-radius:6px;font-size:15px}
 .elegido small{color:var(--suave)}
 .tabla-repro{margin-top:12px}
+.titulo-sel{font-size:18px;margin-top:0}
+input[type=search]{font-size:17px;padding:12px 14px}
+.sel-resultados{display:grid;gap:6px;margin-top:8px}
+.sel-resultados button{background:#111;border:1px solid var(--borde);color:var(--texto);text-align:left;padding:10px 12px;border-radius:8px;font-size:15px;cursor:pointer;margin:0}
+.sel-resultados button:hover,.ficha:hover{border-color:var(--naranja)}
+.sel-o{color:var(--suave);font-size:13px;text-align:center;margin:16px 0 8px;text-transform:uppercase;letter-spacing:.05em}
+.sel-migas{font-size:14px;margin-bottom:6px}
+.sel-migas button{background:none;border:0;color:var(--naranja);padding:0;margin:0;font-size:14px;font-weight:600;cursor:pointer;text-decoration:underline}
+.sel-migas span{color:var(--suave)}
+.sel-paso{font-weight:700;margin:6px 0 10px}
+.sel-fichas{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.sel-fichas .ayuda{grid-column:1/-1}
+.ficha{margin:0;background:#111;border:1px solid var(--borde);color:var(--texto);border-radius:10px;padding:12px 10px;font-size:15px;font-weight:400;cursor:pointer;text-align:center}
+.ficha b{display:block}
+.ficha small{display:block;color:var(--suave);font-size:12px;margin-top:2px}
+.sel-elegido{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--naranja);border-radius:10px;background:rgba(255,107,26,.08)}
+.sel-elegido small{color:var(--suave)}
+.sel-elegido .cambiar{margin:0;padding:8px 14px;font-size:14px;background:transparent;color:var(--naranja);border:1px solid var(--naranja)}
+.gana{font-size:26px;font-weight:800;color:var(--naranja);margin-top:18px}
+.gana small{font-size:15px;color:var(--suave);font-weight:400}
+.comp{margin:14px 0}
+.comp-t{font-weight:700;margin-bottom:4px}
+.fila{display:grid;grid-template-columns:70px 1fr 110px;gap:10px;align-items:center;font-size:14px;margin:4px 0}
+.pista{background:#111;border-radius:6px;height:14px;overflow:hidden}
+.b{height:100%;border-radius:6px}
+.b.serie{background:#555}
+.b.st1{background:var(--naranja)}

@@ -10,66 +10,21 @@
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function motorPorSlug(slug) { return motores.find(function (x) { return x.slug === slug; }); }
 
-  // --- Selector marca > modelo > generación > motor ---
-  var selMarca = form.querySelector('#marca');
-  if (selMarca) {
-    var selModelo = form.querySelector('#modelo');
-    var selGen = form.querySelector('#generacion');
-    var selVer = form.querySelector('#version');
+  // --- Selector de coche ---
+  var cajaSel = document.getElementById('selCoche');
+  if (cajaSel) {
     var bloqueUso = document.getElementById('datosUso');
     var aviso = document.getElementById('motorElegido');
-
-    function rellenar(sel, textoVacio, items, etiqueta) {
-      sel.innerHTML = '<option value="">' + textoVacio + '</option>' + items.map(function (it, i) {
-        return '<option value="' + i + '">' + esc(etiqueta(it)) + '</option>';
-      }).join('');
-      sel.disabled = !items.length;
-      // Si solo hay una opción, se elige sola
-      if (items.length === 1) { sel.value = '0'; }
-    }
-    function vaciar(sel, texto) { sel.innerHTML = '<option value="">' + texto + '</option>'; sel.disabled = true; }
-
-    function marca() { return vehiculos[selMarca.value]; }
-    function modelo() { var m = marca(); return m && m.modelos[selModelo.value]; }
-    function gen() { var mo = modelo(); return mo && mo.generaciones[selGen.value]; }
-    function version() { var g = gen(); return g && g.motores[selVer.value]; }
-
-    function mostrarMotor() {
-      var v = version();
+    SelectorCoche(cajaSel, vehiculos, function (x) {
       out.innerHTML = '';
-      if (!v) { campoMotor.value = ''; aviso.hidden = true; bloqueUso.hidden = true; return; }
-      var m = motorPorSlug(v.motor);
+      if (!x) { campoMotor.value = ''; aviso.hidden = true; bloqueUso.hidden = true; return; }
+      var m = motorPorSlug(x.motor);
       campoMotor.value = m.slug;
-      aviso.innerHTML = 'Tu coche lleva el motor <b>' + esc(m.nombre) + '</b><br><small>Códigos de motor: ' + esc(m.codigos) + ' · <a href="/distribucion/' + m.slug + '/">Ver ficha del motor</a></small>';
+      aviso.innerHTML = 'Lleva el motor <b>' + esc(m.nombre) + '</b><br><small>Códigos de motor: ' + esc(m.codigos) + ' · <a href="/distribucion/' + m.slug + '/">Ver ficha del motor</a></small>';
       aviso.hidden = false;
       bloqueUso.hidden = false;
-    }
-    function alCambiarGen() {
-      var g = gen();
-      if (g) rellenar(selVer, 'Elige motor', g.motores, function (x) { return x.nombre; });
-      else vaciar(selVer, 'Elige motor');
-      mostrarMotor();
-    }
-    function alCambiarModelo() {
-      var mo = modelo();
-      if (mo) rellenar(selGen, 'Elige año', mo.generaciones, function (g) { return g.nombre + ' (' + g.anios + ')'; });
-      else vaciar(selGen, 'Elige año');
-      alCambiarGen();
-    }
-    function alCambiarMarca() {
-      var m = marca();
-      if (m) rellenar(selModelo, 'Elige modelo', m.modelos, function (mo) { return mo.modelo; });
-      else vaciar(selModelo, 'Elige modelo');
-      alCambiarModelo();
-    }
-
-    rellenar(selMarca, 'Elige marca', vehiculos, function (v) { return v.marca; });
-    selMarca.value = '';
-    selModelo.disabled = selGen.disabled = selVer.disabled = true;
-    selMarca.addEventListener('change', alCambiarMarca);
-    selModelo.addEventListener('change', alCambiarModelo);
-    selGen.addEventListener('change', alCambiarGen);
-    selVer.addEventListener('change', mostrarMotor);
+      form.querySelector('#kmActual').focus();
+    });
   }
 
   // --- Cálculo ---
