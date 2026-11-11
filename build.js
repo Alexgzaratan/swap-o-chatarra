@@ -122,7 +122,7 @@ ${cuerpo}
 <p class="pie-enlaces"><a href="/distribucion/">Distribución</a><a href="/repro/">Repro</a><a href="/aviso-legal/">Aviso legal</a>${cfg.youtube ? `<a href="${esc(cfg.youtube)}" rel="noopener" target="_blank">Canal de YouTube</a>` : ''}</p>
 </footer>
 ${scripts}
-${cfg.analitica && cfg.analitica.cloudflare_token ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(cfg.analitica.cloudflare_token)}"}'></script>` : ''}
+${cfg.analitica && cfg.analitica.cloudflare_token ? `<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(cfg.analitica.cloudflare_token)}"}'></script>` : ''}
 </body>
 </html>
 `;
