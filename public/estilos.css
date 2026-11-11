@@ -33,3 +33,8 @@ header{display:flex;justify-content:space-between;align-items:center;gap:12px}
 header nav a{margin-left:16px;color:var(--texto);text-decoration:none;font-weight:600}
 header nav a:hover{color:var(--naranja)}
 td small{color:var(--suave)}
+.pasos{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+@media(max-width:560px){.pasos{grid-template-columns:1fr}}
+select:disabled{opacity:.45}
+.elegido{margin-top:14px;padding:10px 12px;border-left:3px solid var(--naranja);background:#181818;border-radius:6px;font-size:15px}
+.elegido small{color:var(--suave)}

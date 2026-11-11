@@ -7,6 +7,11 @@ const dist = path.join(raiz, 'dist');
 const cfg = JSON.parse(fs.readFileSync(path.join(raiz, 'data/config.json'), 'utf8'));
 const motores = JSON.parse(fs.readFileSync(path.join(raiz, 'data/motores.json'), 'utf8'));
 const repro = JSON.parse(fs.readFileSync(path.join(raiz, 'data/repro.json'), 'utf8'));
+const vehiculos = JSON.parse(fs.readFileSync(path.join(raiz, 'data/vehiculos.json'), 'utf8'));
+// Comprobar que cada vehículo apunta a un motor que existe
+for (const v of vehiculos) for (const mo of v.modelos) for (const g of mo.generaciones) for (const x of g.motores) {
+  if (!motores.some((m) => m.slug === x.motor)) throw new Error(`Motor desconocido en vehiculos.json: ${x.motor} (${v.marca} ${g.nombre})`);
+}
 const rango = ([a, b], u) => (a === b ? `${a} ${u}` : `${a}–${b} ${u}`);
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -34,7 +39,8 @@ ${cuerpo}
 <p class="divulgacion">Algunos enlaces de esta web son de afiliado: si compras a través de ellos, la tienda nos paga una comisión sin que a ti te cueste más.</p>
 <p>Los intervalos y las potencias son de referencia y pueden variar según año, versión y uso. Confirma siempre con el libro de mantenimiento de tu coche o con tu taller. · <a href="/aviso-legal/">Aviso legal</a></p>
 </footer>
-${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify(motores.map(({ slug, nombre, km, anos, km_severo }) => ({ slug, nombre, km, anos, km_severo })))}</script>
+${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify(motores.map(({ slug, nombre, codigos, km, anos, km_severo }) => ({ slug, nombre, codigos, km, anos, km_severo })))}</script>
+<script id="datos-vehiculos" type="application/json">${JSON.stringify(vehiculos)}</script>
 <script>window.ENLACE_KIT=${JSON.stringify(enlaceKit)};</script>
 <script src="/calc.js" defer></script>` : ''}
 </body>
@@ -42,13 +48,23 @@ ${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify
 `;
 }
 
-function calculadora(seleccionado) {
-  const opciones = motores
-    .map((m) => `<option value="${m.slug}"${m.slug === seleccionado ? ' selected' : ''}>${esc(m.nombre)} — ${esc(m.marca)}</option>`)
-    .join('');
+function calculadora(fijo) {
+  // fijo: slug del motor en las páginas de motor. Sin él, se elige por marca, modelo, generación y motor.
+  const eleccion = fijo
+    ? `<input type="hidden" id="motor" name="motor" value="${fijo}">`
+    : `<div class="pasos">
+<div><label for="marca">1. Marca</label><select id="marca"><option value="">Elige marca</option></select></div>
+<div><label for="modelo">2. Modelo</label><select id="modelo" disabled><option value="">Elige modelo</option></select></div>
+<div><label for="generacion">3. Año / generación</label><select id="generacion" disabled><option value="">Elige año</option></select></div>
+<div><label for="version">4. Motor</label><select id="version" disabled><option value="">Elige motor</option></select></div>
+</div>
+<p class="ayuda">¿No sabes tu motor? Mira la potencia en la ficha técnica (viene en kW: multiplica por 1,36 para pasar a CV) o en el libro de mantenimiento.</p>
+<input type="hidden" id="motor" name="motor" value="">
+<div id="motorElegido" class="elegido" hidden></div>
+<p class="ayuda"><a href="#motores">¿No sale tu coche? Elige directamente el motor de la lista.</a></p>`;
   return `<form id="calc" class="tarjeta">
-<label for="motor">Motor</label>
-<select id="motor" name="motor">${opciones}</select>
+${eleccion}
+<div id="datosUso"${fijo ? '' : ' hidden'}>
 <label for="kmActual">Kilómetros actuales</label>
 <input id="kmActual" name="kmActual" type="number" min="0" step="1000" inputmode="numeric" required placeholder="Ej. 185000">
 <label for="kmUltimo">Kilómetros en el último cambio de distribución</label>
@@ -58,6 +74,7 @@ function calculadora(seleccionado) {
 <p class="ayuda">Si nunca se ha cambiado, pon la fecha de matriculación.</p>
 <label class="check"><input id="severo" name="severo" type="checkbox"> Uso severo: mucha ciudad, trayectos cortos, remolque o calor extremo</label>
 <button type="submit">Calcular</button>
+</div>
 <div id="resultado" aria-live="polite"></div>
 </form>`;
 }
@@ -84,10 +101,10 @@ escribir('', pagina({
   ruta: '/',
   conCalc: true,
   cuerpo: `<h1>¿Cuándo te toca cambiar la distribución?</h1>
-<p class="intro">Elige tu motor, pon tus kilómetros y la fecha del último cambio. Te decimos cuánto te queda antes de jugártela.</p>
-${calculadora(motores[0].slug)}
+<p class="intro">Elige tu coche, pon tus kilómetros y la fecha del último cambio. Te decimos cuánto te queda antes de jugártela.</p>
+${calculadora()}
 <p><a class="boton" href="/repro/">¿Cuánto gana tu motor con una repro?</a></p>
-<h2>Motores disponibles</h2>
+<h2 id="motores">Motores disponibles</h2>
 <ul class="lista-motores">${lista}</ul>`,
 }));
 
