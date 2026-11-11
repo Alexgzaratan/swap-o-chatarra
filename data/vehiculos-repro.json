@@ -154,6 +154,10 @@
        {
         "nombre": "1.2 PureTech 130 CV",
         "repro": "psa-1-2-puretech-130"
+       },
+       {
+        "nombre": "1.6 BlueHDi 120 CV (desde 2015)",
+        "repro": "psa-1-6-bluehdi-120"
        }
       ]
      }
@@ -184,6 +188,16 @@
        {
         "nombre": "1.6 HDi 110 CV",
         "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     },
+     {
+      "nombre": "C4 Picasso II",
+      "anios": "2016-2018",
+      "motores": [
+       {
+        "nombre": "1.6 BlueHDi 120 CV",
+        "repro": "psa-1-6-bluehdi-120"
        }
       ]
      }
@@ -240,6 +254,16 @@
         "repro": "renault-1-5-dci-90"
        }
       ]
+     },
+     {
+      "nombre": "Duster II (restyling)",
+      "anios": "2022-2024",
+      "motores": [
+       {
+        "nombre": "1.5 Blue dCi 115 CV",
+        "repro": "renault-1-5-blue-dci-115"
+       }
+      ]
      }
     ]
    },
@@ -276,6 +300,56 @@
   ]
  },
  {
+  "marca": "Fiat",
+  "modelos": [
+   {
+    "modelo": "500X",
+    "generaciones": [
+     {
+      "nombre": "500X",
+      "anios": "2014-2020",
+      "motores": [
+       {
+        "nombre": "1.6 Multijet 120 CV",
+        "repro": "fiat-1-6-multijet-120"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Doblò",
+    "generaciones": [
+     {
+      "nombre": "Doblò II (restyling)",
+      "anios": "2015-2019",
+      "motores": [
+       {
+        "nombre": "1.6 Multijet 120 CV",
+        "repro": "fiat-1-6-multijet-120"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Tipo",
+    "generaciones": [
+     {
+      "nombre": "Tipo II",
+      "anios": "2015-2020",
+      "motores": [
+       {
+        "nombre": "1.6 Multijet 120 CV",
+        "repro": "fiat-1-6-multijet-120"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "marca": "Ford",
   "modelos": [
    {
@@ -303,6 +377,10 @@
        {
         "nombre": "1.0 EcoBoost 125 CV",
         "repro": "ford-1-0-ecoboost-125"
+       },
+       {
+        "nombre": "1.6 TDCi 115 CV",
+        "repro": "ford-1-6-tdci-115"
        }
       ]
      }
@@ -358,6 +436,10 @@
        {
         "nombre": "1.0 EcoBoost 125 CV",
         "repro": "ford-1-0-ecoboost-125"
+       },
+       {
+        "nombre": "1.6 TDCi 115 CV (hasta 2015)",
+        "repro": "ford-1-6-tdci-115"
        }
       ]
      },
@@ -368,6 +450,25 @@
        {
         "nombre": "1.0 EcoBoost 125 CV",
         "repro": "ford-1-0-ecoboost-125"
+       },
+       {
+        "nombre": "1.5 EcoBlue 120 CV",
+        "repro": "ford-1-5-ecoblue-120"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Kuga",
+    "generaciones": [
+     {
+      "nombre": "Kuga III",
+      "anios": "2019-2022",
+      "motores": [
+       {
+        "nombre": "1.5 EcoBlue 120 CV",
+        "repro": "ford-1-5-ecoblue-120"
        }
       ]
      }
@@ -390,6 +491,16 @@
         "repro": "mercedes-c220-cdi-170"
        }
       ]
+     },
+     {
+      "nombre": "Clase C W205",
+      "anios": "2014-2018",
+      "motores": [
+       {
+        "nombre": "C 220 d 170 CV",
+        "repro": "mercedes-c220d-170"
+       }
+      ]
      }
     ]
    },
@@ -403,6 +514,21 @@
        {
         "nombre": "E 220 CDI 170 CV",
         "repro": "mercedes-c220-cdi-170"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "GLC",
+    "generaciones": [
+     {
+      "nombre": "GLC X253",
+      "anios": "2015-2019",
+      "motores": [
+       {
+        "nombre": "GLC 220 d 170 CV",
+        "repro": "mercedes-c220d-170"
        }
       ]
      }
@@ -433,6 +559,25 @@
        {
         "nombre": "1.5 dCi 110 CV",
         "repro": "renault-1-5-dci-110"
+       },
+       {
+        "nombre": "1.6 dCi 130 CV (2017-2018)",
+        "repro": "renault-1-6-dci-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "X-Trail",
+    "generaciones": [
+     {
+      "nombre": "X-Trail T32",
+      "anios": "2015-2017",
+      "motores": [
+       {
+        "nombre": "1.6 dCi 130 CV",
+        "repro": "renault-1-6-dci-130"
        }
       ]
      }
@@ -553,6 +698,10 @@
        {
         "nombre": "1.2 PureTech 110 CV",
         "repro": "psa-1-2-puretech-110"
+       },
+       {
+        "nombre": "1.6 BlueHDi 100 CV (2015-2018)",
+        "repro": "psa-1-6-bluehdi-100"
        }
       ]
      },
@@ -644,6 +793,18 @@
        {
         "nombre": "1.5 BlueHDi 130 CV (desde 2017)",
         "repro": "psa-1-5-bluehdi-130"
+       },
+       {
+        "nombre": "1.6 BlueHDi 120 CV",
+        "repro": "psa-1-6-bluehdi-120"
+       },
+       {
+        "nombre": "1.6 BlueHDi 100 CV (2014-2017)",
+        "repro": "psa-1-6-bluehdi-100"
+       },
+       {
+        "nombre": "2.0 BlueHDi 150 CV (2014-2017)",
+        "repro": "psa-2-0-bluehdi-150"
        }
       ]
      }
@@ -673,6 +834,10 @@
        {
         "nombre": "1.5 BlueHDi 130 CV",
         "repro": "psa-1-5-bluehdi-130"
+       },
+       {
+        "nombre": "2.0 BlueHDi 150 CV (2016-2018)",
+        "repro": "psa-2-0-bluehdi-150"
        }
       ]
      }
@@ -707,6 +872,16 @@
     "modelo": "508",
     "generaciones": [
      {
+      "nombre": "508 I",
+      "anios": "2014-2018",
+      "motores": [
+       {
+        "nombre": "2.0 BlueHDi 150 CV",
+        "repro": "psa-2-0-bluehdi-150"
+       }
+      ]
+     },
+     {
       "nombre": "508 II",
       "anios": "2018-2023",
       "motores": [
@@ -739,6 +914,20 @@
         "repro": "renault-1-5-dci-110"
        }
       ]
+     },
+     {
+      "nombre": "Captur II",
+      "anios": "2019-2022",
+      "motores": [
+       {
+        "nombre": "1.5 Blue dCi 115 CV (2019-2020)",
+        "repro": "renault-1-5-blue-dci-115"
+       },
+       {
+        "nombre": "1.3 TCe 140 CV EDC (2020-2022)",
+        "repro": "renault-1-3-tce-140"
+       }
+      ]
      }
     ]
    },
@@ -756,6 +945,16 @@
        {
         "nombre": "1.5 dCi 110 CV",
         "repro": "renault-1-5-dci-110"
+       }
+      ]
+     },
+     {
+      "nombre": "Clio V",
+      "anios": "2019-2020",
+      "motores": [
+       {
+        "nombre": "1.5 Blue dCi 115 CV",
+        "repro": "renault-1-5-blue-dci-115"
        }
       ]
      }
@@ -788,6 +987,16 @@
         "repro": "renault-1-5-dci-110"
        }
       ]
+     },
+     {
+      "nombre": "Kadjar (restyling)",
+      "anios": "2018-2022",
+      "motores": [
+       {
+        "nombre": "1.3 TCe 140 CV",
+        "repro": "renault-1-3-tce-140"
+       }
+      ]
      }
     ]
    },
@@ -805,6 +1014,30 @@
        {
         "nombre": "1.5 dCi 110 CV",
         "repro": "renault-1-5-dci-110"
+       },
+       {
+        "nombre": "1.6 dCi 130 CV (desde 2012)",
+        "repro": "renault-1-6-dci-130"
+       }
+      ]
+     },
+     {
+      "nombre": "Mégane IV",
+      "anios": "2018-2020",
+      "motores": [
+       {
+        "nombre": "1.5 Blue dCi 115 CV",
+        "repro": "renault-1-5-blue-dci-115"
+       }
+      ]
+     },
+     {
+      "nombre": "Mégane IV (restyling)",
+      "anios": "2020-2024",
+      "motores": [
+       {
+        "nombre": "1.3 TCe 140 CV",
+        "repro": "renault-1-3-tce-140"
        }
       ]
      }
@@ -820,6 +1053,10 @@
        {
         "nombre": "1.5 dCi 110 CV",
         "repro": "renault-1-5-dci-110"
+       },
+       {
+        "nombre": "1.6 dCi 130 CV (desde 2013)",
+        "repro": "renault-1-6-dci-130"
        }
       ]
      }
@@ -846,6 +1083,21 @@
     ]
    },
    {
+    "modelo": "Arona",
+    "generaciones": [
+     {
+      "nombre": "Arona",
+      "anios": "2019-2021",
+      "motores": [
+       {
+        "nombre": "1.0 TSI 115 CV",
+        "repro": "vw-1-0-tsi-115"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "modelo": "Ibiza",
     "generaciones": [
      {
@@ -855,6 +1107,10 @@
        {
         "nombre": "1.9 TDI 130 CV (FR)",
         "repro": "vw-1-9-tdi-130"
+       },
+       {
+        "nombre": "1.9 TDI 100 CV",
+        "repro": "vw-1-9-tdi-100"
        }
       ]
      },
@@ -865,6 +1121,16 @@
        {
         "nombre": "1.6 TDI 105 CV",
         "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     },
+     {
+      "nombre": "Ibiza V (6F)",
+      "anios": "2017-2021",
+      "motores": [
+       {
+        "nombre": "1.0 TSI 115 CV",
+        "repro": "vw-1-0-tsi-115"
        }
       ]
      }
@@ -912,6 +1178,28 @@
        {
         "nombre": "2.0 TDI 150 CV",
         "repro": "vw-2-0-tdi-150"
+       },
+       {
+        "nombre": "1.4 TSI 125 CV (desde 2014)",
+        "repro": "vw-1-4-tsi-125"
+       },
+       {
+        "nombre": "1.4 TSI 150 CV ACT (2014-2016)",
+        "repro": "vw-1-4-tsi-150-act"
+       },
+       {
+        "nombre": "2.0 TDI 184 CV (FR)",
+        "repro": "vw-2-0-tdi-184"
+       }
+      ]
+     },
+     {
+      "nombre": "León IV (KL)",
+      "anios": "2020-actualidad",
+      "motores": [
+       {
+        "nombre": "1.5 TSI 150 CV",
+        "repro": "vw-1-5-tsi-150"
        }
       ]
      }
@@ -925,6 +1213,16 @@
    {
     "modelo": "Fabia",
     "generaciones": [
+     {
+      "nombre": "Fabia I",
+      "anios": "2004-2006",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 100 CV",
+        "repro": "vw-1-9-tdi-100"
+       }
+      ]
+     },
      {
       "nombre": "Fabia II",
       "anios": "2010-2014",
@@ -965,6 +1263,24 @@
        {
         "nombre": "2.0 TDI 150 CV",
         "repro": "vw-2-0-tdi-150"
+       },
+       {
+        "nombre": "1.4 TSI 150 CV (2015-2017)",
+        "repro": "vw-1-4-tsi-150-act"
+       },
+       {
+        "nombre": "2.0 TDI 184 CV (RS)",
+        "repro": "vw-2-0-tdi-184"
+       }
+      ]
+     },
+     {
+      "nombre": "Octavia IV",
+      "anios": "2020-2024",
+      "motores": [
+       {
+        "nombre": "1.5 TSI 150 CV",
+        "repro": "vw-1-5-tsi-150"
        }
       ]
      }
@@ -1038,6 +1354,22 @@
        {
         "nombre": "2.0 TDI 150 CV",
         "repro": "vw-2-0-tdi-150"
+       },
+       {
+        "nombre": "1.4 TSI 125 CV (2014-2017)",
+        "repro": "vw-1-4-tsi-125"
+       },
+       {
+        "nombre": "1.4 TSI 150 CV ACT (2014-2017)",
+        "repro": "vw-1-4-tsi-150-act"
+       },
+       {
+        "nombre": "1.5 TSI 150 CV (desde 2017)",
+        "repro": "vw-1-5-tsi-150"
+       },
+       {
+        "nombre": "2.0 TDI 184 CV (GTD)",
+        "repro": "vw-2-0-tdi-184"
        }
       ]
      }
@@ -1082,12 +1414,47 @@
     "modelo": "Polo",
     "generaciones": [
      {
+      "nombre": "Polo IV (9N)",
+      "anios": "2004-2009",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 100 CV",
+        "repro": "vw-1-9-tdi-100"
+       }
+      ]
+     },
+     {
       "nombre": "Polo 6R",
       "anios": "2009-2015",
       "motores": [
        {
         "nombre": "1.6 TDI 105 CV",
         "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     },
+     {
+      "nombre": "Polo VI",
+      "anios": "2017-2018",
+      "motores": [
+       {
+        "nombre": "1.0 TSI 115 CV",
+        "repro": "vw-1-0-tsi-115"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "T-Roc",
+    "generaciones": [
+     {
+      "nombre": "T-Roc I",
+      "anios": "2018-2019",
+      "motores": [
+       {
+        "nombre": "1.5 TSI 150 CV",
+        "repro": "vw-1-5-tsi-150"
        }
       ]
      }

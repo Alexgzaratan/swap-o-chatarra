@@ -5,7 +5,8 @@
       { "modelo": "A3", "generaciones": [
         { "nombre": "A3 8P", "anios": "2003-2012", "motores": [
           { "nombre": "1.9 TDI 105 CV", "motor": "vw-1-9-tdi-pd" },
-          { "nombre": "2.0 TDI 140 CV common rail (desde 2008)", "motor": "vw-2-0-tdi-common-rail" }
+          { "nombre": "2.0 TDI 140 CV common rail (desde 2008)", "motor": "vw-2-0-tdi-common-rail" },
+          { "nombre": "1.6 TDI 105 CV (desde 2009)", "motor": "vw-1-6-tdi-cr" }
         ]},
         { "nombre": "A3 8V", "anios": "2012-2020", "motores": [
           { "nombre": "2.0 TDI 150 / 184 CV", "motor": "vw-2-0-tdi-common-rail" }
@@ -60,6 +61,26 @@
         ]},
         { "nombre": "Sandero II", "anios": "2012-2020", "motores": [
           { "nombre": "1.5 dCi 75 / 90 CV", "motor": "renault-1-5-dci-k9k" }
+        ]}
+      ]}
+    ]
+  },
+  {
+    "marca": "Fiat",
+    "modelos": [
+      { "modelo": "500X", "generaciones": [
+        { "nombre": "500X", "anios": "2014-2020", "motores": [
+          { "nombre": "1.6 Multijet 120 CV", "motor": "fiat-1-6-multijet" }
+        ]}
+      ]},
+      { "modelo": "Doblò", "generaciones": [
+        { "nombre": "Doblò II (restyling)", "anios": "2015-2019", "motores": [
+          { "nombre": "1.6 Multijet 120 CV", "motor": "fiat-1-6-multijet" }
+        ]}
+      ]},
+      { "modelo": "Tipo", "generaciones": [
+        { "nombre": "Tipo II", "anios": "2015-2020", "motores": [
+          { "nombre": "1.6 Multijet 120 CV", "motor": "fiat-1-6-multijet" }
         ]}
       ]}
     ]
@@ -199,12 +220,16 @@
       { "modelo": "Ibiza", "generaciones": [
         { "nombre": "Ibiza 6L", "anios": "2002-2008", "motores": [
           { "nombre": "1.9 TDI 100 / 105 CV", "motor": "vw-1-9-tdi-pd" }
+        ]},
+        { "nombre": "Ibiza 6J", "anios": "2009-2015", "motores": [
+          { "nombre": "1.6 TDI 105 CV", "motor": "vw-1-6-tdi-cr" }
         ]}
       ]},
       { "modelo": "León", "generaciones": [
         { "nombre": "León II (1P)", "anios": "2005-2012", "motores": [
           { "nombre": "1.9 TDI 105 CV", "motor": "vw-1-9-tdi-pd" },
-          { "nombre": "2.0 TDI 140 CV common rail (desde 2010)", "motor": "vw-2-0-tdi-common-rail" }
+          { "nombre": "2.0 TDI 140 CV common rail (desde 2010)", "motor": "vw-2-0-tdi-common-rail" },
+          { "nombre": "1.6 TDI 105 CV (desde 2010)", "motor": "vw-1-6-tdi-cr" }
         ]},
         { "nombre": "León III (5F)", "anios": "2012-2020", "motores": [
           { "nombre": "2.0 TDI 150 / 184 CV", "motor": "vw-2-0-tdi-common-rail" }
@@ -215,6 +240,11 @@
   {
     "marca": "Skoda",
     "modelos": [
+      { "modelo": "Fabia", "generaciones": [
+        { "nombre": "Fabia II", "anios": "2010-2014", "motores": [
+          { "nombre": "1.6 TDI 105 CV", "motor": "vw-1-6-tdi-cr" }
+        ]}
+      ]},
       { "modelo": "Octavia", "generaciones": [
         { "nombre": "Octavia II", "anios": "2004-2013", "motores": [
           { "nombre": "1.9 TDI 105 CV", "motor": "vw-1-9-tdi-pd" },
@@ -234,7 +264,8 @@
           { "nombre": "1.9 TDI 90 / 105 CV", "motor": "vw-1-9-tdi-pd" }
         ]},
         { "nombre": "Golf VI", "anios": "2008-2012", "motores": [
-          { "nombre": "2.0 TDI 110 / 140 / 170 CV", "motor": "vw-2-0-tdi-common-rail" }
+          { "nombre": "2.0 TDI 110 / 140 / 170 CV", "motor": "vw-2-0-tdi-common-rail" },
+          { "nombre": "1.6 TDI 105 CV", "motor": "vw-1-6-tdi-cr" }
         ]},
         { "nombre": "Golf VII", "anios": "2012-2019", "motores": [
           { "nombre": "2.0 TDI 150 / 184 CV", "motor": "vw-2-0-tdi-common-rail" }
@@ -250,6 +281,11 @@
         ]},
         { "nombre": "Passat B8", "anios": "2014-2019", "motores": [
           { "nombre": "2.0 TDI 150 / 190 CV", "motor": "vw-2-0-tdi-common-rail" }
+        ]}
+      ]},
+      { "modelo": "Polo", "generaciones": [
+        { "nombre": "Polo 6R", "anios": "2009-2015", "motores": [
+          { "nombre": "1.6 TDI 105 CV", "motor": "vw-1-6-tdi-cr" }
         ]}
       ]},
       { "modelo": "Tiguan", "generaciones": [

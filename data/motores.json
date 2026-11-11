@@ -162,5 +162,55 @@
         "url": "https://www.autofacil.es/correa-distribucion-banada-aceite-motores-problemas/"
       }
     ]
+  },
+  {
+    "slug": "vw-1-6-tdi-cr",
+    "nombre": "1.6 TDI common rail",
+    "marca": "Volkswagen / Seat / Skoda / Audi",
+    "codigos": "CAYC, CAYB…",
+    "anios": "2009-2015",
+    "coches": "Golf VI, Polo 6R, Ibiza 6J, León II, Fabia II, A3 8P",
+    "tipo": "Correa seca",
+    "km": 210000,
+    "anos": null,
+    "km_severo": null,
+    "nota": "El plan de mantenimiento indica cambiar la correa y el tensor a los 210.000 km, sin límite de años. Alguna guía da 200.000 km: si el coche tiene muchos años, revísala antes.",
+    "fuentes": [
+      {
+        "titulo": "CompleteCar – Golf VI 1.6 TDI: cada 210.000 km",
+        "url": "https://www.completecar.ie/used-car-reviews/review/9735/Volkswagen-Golf-VI-2008-2012-buying-guide/servicing-timing-belt-interval.html"
+      },
+      {
+        "titulo": "CompleteCar – Skoda Rapid 1.6 TDI: máximo 210.000 km",
+        "url": "https://www.completecar.ie/askusanything/question/16099/timing-belt-change-in-2014-skoda-rapid"
+      },
+      {
+        "titulo": "Auto-ABC – Touran 1.6 TDI: 200.000 km",
+        "url": "https://www.auto-abc.eu/volkswagen-touran/v11619-2010/service"
+      }
+    ]
+  },
+  {
+    "slug": "fiat-1-6-multijet",
+    "nombre": "1.6 Multijet",
+    "marca": "Fiat",
+    "codigos": "55260384, 940C1000",
+    "anios": "2014-2020",
+    "coches": "Tipo, 500X, Doblò",
+    "tipo": "Correa seca",
+    "km": 120000,
+    "anos": 5,
+    "km_severo": 60000,
+    "nota": "El manual del 500X indica 120.000 km o 6 años, y 60.000 km en uso severo. El libro del Doblò marca 5 años como máximo, así que usamos 5 años.",
+    "fuentes": [
+      {
+        "titulo": "Manual del Fiat 500X – Plan de mantenimiento",
+        "url": "https://www.manualslib.com/manual/1883356/Fiat-500x.html?page=191"
+      },
+      {
+        "titulo": "FiatForum – Libro de mantenimiento Doblò 1.6 Multijet",
+        "url": "https://www.fiatforum.com/threads/1-6-multijet-cambelt-intervals.475563"
+      }
+    ]
   }
 ]

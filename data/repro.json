@@ -172,7 +172,7 @@
    320,
    330
   ],
-  "distribucion": null,
+  "distribucion": "vw-1-6-tdi-cr",
   "nota": "Comparte bloque con las versiones de 75 y 90 CV, que solo están limitadas por software. Revisa antes la válvula EGR, su avería más común.",
   "fuentes": [
    {
@@ -492,6 +492,502 @@
    {
     "titulo": "Chiptuning Reseller – Insignia 1.6 CDTI 136",
     "url": "https://chiptuningreseller.com/chip-tuning/cars/opel/insignia-insignia-grand-sport/2015-2017/16-cdti/3639"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-4-tsi-125",
+  "nombre": "1.4 TSI 125 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Gasolina",
+  "codigos": "CZCA",
+  "anios": "2014-2018",
+  "coches": "Golf VII, León III",
+  "cv": 125,
+  "nm": 200,
+  "cv1": [
+   155,
+   155
+  ],
+  "nm1": [
+   270,
+   270
+  ],
+  "distribucion": null,
+  "nota": "Motor EA211 con correa de distribución. Ganancia de par notable para su tamaño; usa siempre gasolina de 98 si lo reprogramas.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf VII 1.4 TSI 125",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vii-mk1-2012-2017/14-tsi/19627"
+   },
+   {
+    "titulo": "ND Auto Repairs – Golf 7 1.4 TSI 125",
+    "url": "https://ndautorepairs.co.uk/remapping/volkswagen-golf-golf-7-2017-2019-1-4-tsi-125hp/"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-4-tsi-150-act",
+  "nombre": "1.4 TSI 150 CV ACT",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Gasolina",
+  "codigos": "CZDA, CZEA",
+  "anios": "2014-2017",
+  "coches": "Golf VII, León III, Octavia III",
+  "cv": 150,
+  "nm": 250,
+  "cv1": [
+   174,
+   175
+  ],
+  "nm1": [
+   319,
+   320
+  ],
+  "distribucion": null,
+  "nota": "Lleva desconexión de cilindros (ACT). Con cambio DSG, confirma con el taller que también ajusta el límite de par de la caja.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf VII 1.4 TSI ACT",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vii-mk1-2012-2017/14-tsi-act/5107"
+   },
+   {
+    "titulo": "CSC Motors – Golf 7 1.4 TSI ACT 150",
+    "url": "https://www.cscmotors.com/remapping-stats/Volkswagen/golf/golf-7-2012-2016/golf-1-4-tsi-150hp-5746"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-5-tsi-150",
+  "nombre": "1.5 TSI 150 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Gasolina",
+  "codigos": "DADA, DPCA",
+  "anios": "2017-2024",
+  "coches": "Golf VII (restyling), León IV, Octavia IV, T-Roc",
+  "cv": 150,
+  "nm": 250,
+  "cv1": [
+   179,
+   180
+  ],
+  "nm1": [
+   304,
+   335
+  ],
+  "distribucion": null,
+  "nota": "Motor EA211 evo con filtro de partículas de gasolina: la repro debe dejarlo activo. Las versiones e-TSI con microhibridación llevan otra centralita.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf VII restyling 1.5 TSI",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vii-mk2-022017-2020/15-tsi/19901"
+   },
+   {
+    "titulo": "ND Auto Repairs – Golf 7 1.5 TSI 150",
+    "url": "https://ndautorepairs.co.uk/remapping/volkswagen-golf-golf-7-2017-2019-1-5-tsi-150hp/"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-0-tsi-115",
+  "nombre": "1.0 TSI 115 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Gasolina",
+  "codigos": "CHZJ, DKJA, DKRF",
+  "anios": "2017-2021",
+  "coches": "Ibiza V, Arona, Polo VI",
+  "cv": 115,
+  "nm": 200,
+  "cv1": [
+   125,
+   130
+  ],
+  "nm1": [
+   235,
+   240
+  ],
+  "distribucion": null,
+  "nota": "Tricilíndrico pequeño: la ganancia es modesta y las cifras varían mucho entre preparadores. Pide ver la curva antes y después en banco.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Ibiza 1.0 TSI 115",
+    "url": "https://www.cscmotors.com/remapping-stats/Seat/ibiza/2017-a0/ibiza-1-0-tsi-115hp-5116"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Golf VII 1.0 TSI 115",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/1045-vii-2012-2017/5099-10-tsi-2015-2016/5099"
+   }
+  ]
+ },
+ {
+  "slug": "vw-2-0-tdi-184",
+  "nombre": "2.0 TDI 184 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "CUNA, CUPA",
+  "anios": "2013-2017",
+  "coches": "Golf VII GTD, León III FR, Octavia III RS",
+  "cv": 184,
+  "nm": 380,
+  "cv1": [
+   220,
+   225
+  ],
+  "nm1": [
+   450,
+   460
+  ],
+  "distribucion": "vw-2-0-tdi-common-rail",
+  "nota": "Motor EA288 con filtro de partículas: la repro debe mantenerlo. Con DSG de 6 marchas hay que ajustar también la caja.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Golf VII GTD 2.0 TDI",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/volkswagen/golf/golf-vii-mk1-2012-2017/20-tdi-cr-gtd/5123"
+   },
+   {
+    "titulo": "CSC Motors – Golf 7 GTD 2.0 TDI 184",
+    "url": "https://www.cscmotors.com/remapping-stats/Volkswagen/golf/golf-7-2012-2016/golf-2-0-tdi-cr-gtd-184hp-5755"
+   }
+  ]
+ },
+ {
+  "slug": "vw-1-9-tdi-100",
+  "nombre": "1.9 TDI 100 CV",
+  "marca": "Volkswagen / Seat / Skoda / Audi",
+  "tipo": "Diésel",
+  "codigos": "ATD, AXR",
+  "anios": "2002-2009",
+  "coches": "Ibiza 6L, Fabia I, Polo 9N",
+  "cv": 100,
+  "nm": 240,
+  "cv1": [
+   140,
+   140
+  ],
+  "nm1": [
+   320,
+   320
+  ],
+  "distribucion": "vw-1-9-tdi-pd",
+  "nota": "Bomba-inyector muy agradecido con la repro. Revisa antes embrague y volante: con muchos kilómetros no aguantan el par extra.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Ibiza 6L 1.9 TDI 100",
+    "url": "https://www.cscmotors.com/remapping-stats/Seat/ibiza/2002-2008-6l/ibiza-1-9-tdi-100hp-5083"
+   },
+   {
+    "titulo": "Elaborazioni Taglienti – Fabia 1.9 TDI 100",
+    "url": "https://elaborazioni-taglienti.file-service.com/tuning-specs/skoda/fabia/2000-2007/19-tdi-100hp"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-6-bluehdi-120",
+  "nombre": "1.6 BlueHDi 120 CV",
+  "marca": "Peugeot / Citroën",
+  "tipo": "Diésel",
+  "codigos": "DV6FC",
+  "anios": "2014-2018",
+  "coches": "Peugeot 308 II, Citroën C4 II, C4 Picasso II",
+  "cv": 120,
+  "nm": 300,
+  "cv1": [
+   140,
+   149
+  ],
+  "nm1": [
+   350,
+   354
+  ],
+  "distribucion": "psa-1-6-hdi-dv6",
+  "nota": "Lleva AdBlue y filtro de partículas: la repro tiene que mantenerlos. Antes de nada, revisa el estado de la correa de distribución.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – 308 II 1.6 BlueHDi 120",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/308/ph3-092017-2021/16-bluehdi/3842"
+   },
+   {
+    "titulo": "CSC Motors – 308 1.6 BlueHDi 120",
+    "url": "https://www.cscmotors.com/remapping-stats/Peugeot/308/2013-2017/308-1-6-bluehdi-120hp-4318"
+   }
+  ]
+ },
+ {
+  "slug": "psa-1-6-bluehdi-100",
+  "nombre": "1.6 BlueHDi 100 CV",
+  "marca": "Peugeot / Citroën",
+  "tipo": "Diésel",
+  "codigos": "DV6FD",
+  "anios": "2014-2018",
+  "coches": "Peugeot 208 I, 308 II",
+  "cv": 100,
+  "nm": 254,
+  "cv1": [
+   130,
+   132
+  ],
+  "nm1": [
+   320,
+   322
+  ],
+  "distribucion": "psa-1-6-hdi-dv6",
+  "nota": "Comparte bloque con el de 120 CV, por eso la ganancia es grande. El AdBlue y el filtro de partículas deben seguir funcionando.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – 308 1.6 BlueHDi 100",
+    "url": "https://www.cscmotors.com/remapping-stats/Peugeot/308/2013-2017/308-1-6-bluehdi-100hp-4317"
+   },
+   {
+    "titulo": "Chiptuning Reseller – 308 II 1.6 BlueHDi 100",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/peugeot/308/ph2-2014-2017/16-bluehdi/3831"
+   }
+  ]
+ },
+ {
+  "slug": "psa-2-0-bluehdi-150",
+  "nombre": "2.0 BlueHDi 150 CV",
+  "marca": "Peugeot / Citroën",
+  "tipo": "Diésel",
+  "codigos": "DW10F",
+  "anios": "2014-2018",
+  "coches": "Peugeot 308 II, 508 I, 3008 II",
+  "cv": 150,
+  "nm": 370,
+  "cv1": [
+   200,
+   205
+  ],
+  "nm1": [
+   450,
+   460
+  ],
+  "distribucion": null,
+  "nota": "Gana mucho par: con cambio manual, revisa embrague y volante bimasa. El AdBlue y el filtro de partículas tienen que seguir activos.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – 308 2.0 BlueHDi 150",
+    "url": "https://www.cscmotors.com/remapping-stats/Peugeot/308/2013-2017/308-2-0-bluehdi-150hp-4327"
+   },
+   {
+    "titulo": "ECU Technologies – 308 2.0 BlueHDi 150",
+    "url": "https://ecutech.file-service.com/account/en/specs-pages/peugeot/308/2017-2020/20-bluehdi-150hp-8060"
+   }
+  ]
+ },
+ {
+  "slug": "renault-1-5-blue-dci-115",
+  "nombre": "1.5 Blue dCi 115 CV",
+  "marca": "Renault / Dacia",
+  "tipo": "Diésel",
+  "codigos": "K9K",
+  "anios": "2018-2024",
+  "coches": "Renault Mégane IV, Clio V, Captur II; Dacia Duster II",
+  "cv": 115,
+  "nm": 260,
+  "cv1": [
+   135,
+   140
+  ],
+  "nm1": [
+   310,
+   315
+  ],
+  "distribucion": null,
+  "nota": "Versión moderna del K9K con AdBlue: la repro debe mantenerlo. Usa el aceite que marca Renault y respeta los cambios.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Mégane 4 1.5 Blue dCi",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/renault/megane/megane-4-ph1-2015-2021/15-bluedci/18939"
+   },
+   {
+    "titulo": "ECU Technologies – Clio V 1.5 Blue dCi 115",
+    "url": "https://ecutech.file-service.com/account/en/specs-pages/renault/clio/5-2019-g/15-bluedci-115hp"
+   }
+  ]
+ },
+ {
+  "slug": "renault-1-3-tce-140",
+  "nombre": "1.3 TCe 140 CV",
+  "marca": "Renault",
+  "tipo": "Gasolina",
+  "codigos": "H5H",
+  "anios": "2018-2024",
+  "coches": "Mégane IV, Kadjar, Captur II",
+  "cv": 140,
+  "nm": 240,
+  "cv1": [
+   155,
+   175
+  ],
+  "nm1": [
+   280,
+   310
+  ],
+  "distribucion": null,
+  "nota": "Lleva cadena de distribución y filtro de partículas de gasolina. Las cifras varían mucho entre preparadores: pide el resultado en banco.",
+  "fuentes": [
+   {
+    "titulo": "CSC Motors – Mégane 4 1.3 TCe 140",
+    "url": "https://www.cscmotors.com/remapping-stats/Renault/megane/4-2021/megane-1-3-tce-140hp-8950"
+   },
+   {
+    "titulo": "Active Motion Performance – Kadjar 1.3 TCe 140",
+    "url": "https://activemotion-performance.file-service.com/en/tuning-specs/renault/kadjar/2019-g/13-tce-140hp"
+   }
+  ]
+ },
+ {
+  "slug": "renault-1-6-dci-130",
+  "nombre": "1.6 dCi 130 CV",
+  "marca": "Renault / Nissan",
+  "tipo": "Diésel",
+  "codigos": "R9M",
+  "anios": "2012-2018",
+  "coches": "Renault Mégane III, Scénic III; Nissan Qashqai J11, X-Trail T32",
+  "cv": 130,
+  "nm": 320,
+  "cv1": [
+   156,
+   160
+  ],
+  "nm1": [
+   376,
+   380
+  ],
+  "distribucion": null,
+  "nota": "Motor con cadena de distribución y buena base para la repro. Revisa antes la válvula EGR y el filtro de partículas.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Mégane 3 1.6 dCi 130",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/renault/megane/megane-3-ph2-2012-2013/16-dci/4369"
+   },
+   {
+    "titulo": "Active Motion Performance – Kadjar 1.6 dCi 130",
+    "url": "https://activemotion-performance.file-service.com/en/tuning-specs/renault/kadjar/2015-2018/16-dci-130hp"
+   }
+  ]
+ },
+ {
+  "slug": "ford-1-5-ecoblue-120",
+  "nombre": "1.5 EcoBlue 120 CV",
+  "marca": "Ford",
+  "tipo": "Diésel",
+  "codigos": "ZTDA, ZTDB",
+  "anios": "2018-2022",
+  "coches": "Focus IV, Kuga III",
+  "cv": 120,
+  "nm": 300,
+  "cv1": [
+   150,
+   152
+  ],
+  "nm1": [
+   342,
+   360
+  ],
+  "distribucion": null,
+  "nota": "Lleva AdBlue y filtro de partículas: la repro debe mantenerlos. Su correa de distribución va en aceite, así que respeta el aceite que pide Ford.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – Kuga III 1.5 EcoBlue",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/ford/kuga/3452-iii-2019-2024/9890-15-tdci-ecoblue/9890"
+   },
+   {
+    "titulo": "Van Dijk Support Center – Kuga 1.5 EcoBlue 120",
+    "url": "https://vandijksupportcenter.file-service.com/account/en/specs-pages/ford/kuga/2019-g/15-ecoblue-120hp"
+   }
+  ]
+ },
+ {
+  "slug": "ford-1-6-tdci-115",
+  "nombre": "1.6 TDCi 115 CV",
+  "marca": "Ford",
+  "tipo": "Diésel",
+  "codigos": "T1DA, T1DB",
+  "anios": "2010-2019",
+  "coches": "Focus III, C-Max II",
+  "cv": 115,
+  "nm": 270,
+  "cv1": [
+   134,
+   140
+  ],
+  "nm1": [
+   319,
+   320
+  ],
+  "distribucion": "psa-1-6-hdi-dv6",
+  "nota": "Es el mismo bloque DV6 de PSA. Antes de reprogramar, revisa arandelas de inyectores y turbo, sus fallos típicos.",
+  "fuentes": [
+   {
+    "titulo": "Chiptuning Reseller – C-Max II 1.6 TDCi 115",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/ford/c-max/2011-2015/16-tdci/19319"
+   },
+   {
+    "titulo": "Torqit – C-Max 1.6 TDCi 115",
+    "url": "https://torqit.file-service.com/account/en/specs-pages/ford/c-max/2011-2015/16-tdci-115hp"
+   }
+  ]
+ },
+ {
+  "slug": "fiat-1-6-multijet-120",
+  "nombre": "1.6 Multijet 120 CV",
+  "marca": "Fiat",
+  "tipo": "Diésel",
+  "codigos": "55260384",
+  "anios": "2014-2020",
+  "coches": "Tipo, 500X, Doblò",
+  "cv": 120,
+  "nm": 320,
+  "cv1": [
+   146,
+   155
+  ],
+  "nm1": [
+   380,
+   381
+  ],
+  "distribucion": "fiat-1-6-multijet",
+  "nota": "Responde bien a la repro. Lleva correa de distribución con intervalo corto: si está cerca del cambio, hazlo antes.",
+  "fuentes": [
+   {
+    "titulo": "Dyno-ChiptuningFiles – Tipo 1.6 Multijet 120",
+    "url": "https://dyno-chiptuningfiles.com/chiptuning-file/fiat-tipo-16-mjet-120hp"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Tipo 1.6 MJT",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/fiat/tipo-tipo-cross/2016-2021/16-mjt/1819"
+   }
+  ]
+ },
+ {
+  "slug": "mercedes-c220d-170",
+  "nombre": "C 220 d 170 CV (W205)",
+  "marca": "Mercedes-Benz",
+  "tipo": "Diésel",
+  "codigos": "OM651",
+  "anios": "2014-2019",
+  "coches": "Clase C W205, GLC X253",
+  "cv": 170,
+  "nm": 400,
+  "cv1": [
+   216,
+   220
+  ],
+  "nm1": [
+   496,
+   500
+  ],
+  "distribucion": null,
+  "nota": "Con cambio automático, confirma que el taller ajusta también la caja. El AdBlue y el filtro de partículas deben seguir funcionando.",
+  "fuentes": [
+   {
+    "titulo": "ByteFLASH – C 220 CDI 170 W205",
+    "url": "https://byteflash.co.uk/tuning-files/mercedes/c/w205-2014-2018/220-cdi-170hp/"
+   },
+   {
+    "titulo": "Chiptuning Reseller – Clase C W205 220 CDI",
+    "url": "https://chiptuningreseller.com/chip-tuning/cars/mercedes-benz/c/623-w205-042014-2018/2867-220-cdi/2867"
    }
   ]
  }
