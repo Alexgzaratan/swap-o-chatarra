@@ -7,6 +7,10 @@ const dist = path.join(raiz, 'dist');
 const cfg = JSON.parse(fs.readFileSync(path.join(raiz, 'data/config.json'), 'utf8'));
 const motores = JSON.parse(fs.readFileSync(path.join(raiz, 'data/motores.json'), 'utf8'));
 const repro = JSON.parse(fs.readFileSync(path.join(raiz, 'data/repro.json'), 'utf8'));
+const vehiculosRepro = JSON.parse(fs.readFileSync(path.join(raiz, 'data/vehiculos-repro.json'), 'utf8'));
+for (const v of vehiculosRepro) for (const mo of v.modelos) for (const g of mo.generaciones) for (const x of g.motores) {
+  if (!repro.some((r) => r.slug === x.repro)) throw new Error(`Repro desconocida en vehiculos-repro.json: ${x.repro} (${v.marca} ${g.nombre})`);
+}
 const vehiculos = JSON.parse(fs.readFileSync(path.join(raiz, 'data/vehiculos.json'), 'utf8'));
 // Comprobar que cada vehículo apunta a un motor que existe
 for (const v of vehiculos) for (const mo of v.modelos) for (const g of mo.generaciones) for (const x of g.motores) {
@@ -18,7 +22,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const km = (n) => n.toLocaleString('es-ES') + ' km';
 const enlaceKit = cfg.afiliado.enlace_kit_distribucion || '';
 
-function pagina({ titulo, descripcion, ruta, cuerpo, conCalc }) {
+function pagina({ titulo, descripcion, ruta, cuerpo, conCalc, extra = '' }) {
   const url = cfg.url_base + ruta;
   return `<!DOCTYPE html>
 <html lang="es">
@@ -43,6 +47,7 @@ ${conCalc ? `<script id="datos-motores" type="application/json">${JSON.stringify
 <script id="datos-vehiculos" type="application/json">${JSON.stringify(vehiculos)}</script>
 <script>window.ENLACE_KIT=${JSON.stringify(enlaceKit)};</script>
 <script src="/calc.js" defer></script>` : ''}
+${extra}
 </body>
 </html>
 `;
@@ -153,8 +158,23 @@ escribir('repro', pagina({
   descripcion: 'Potencia y par de serie y tras una reprogramación Stage 1 de los motores más comunes en España, con fuentes y lo que dice la ley.',
   ruta: '/repro/',
   conCalc: false,
+  extra: `<script id="datos-vehiculos-repro" type="application/json">${JSON.stringify(vehiculosRepro)}</script>
+<script id="datos-repro" type="application/json">${JSON.stringify(repro.map(({ slug, nombre, codigos, cv, nm, cv1, nm1 }) => ({ slug, nombre, codigos, cv, nm, cv1, nm1 })))}</script>
+<script src="/repro.js" defer></script>`,
   cuerpo: `<h1>¿Cuánto gana tu motor con una repro?</h1>
-<p class="intro">Potencia y par de serie frente a una Stage 1 (solo software, sin cambiar piezas), según varios preparadores.</p>
+<p class="intro">Elige tu coche y te decimos cuánta potencia y par gana con una Stage 1 (solo software, sin cambiar piezas), según varios preparadores.</p>
+<div id="selRepro" class="tarjeta">
+<div class="pasos">
+<div><label for="marca">1. Marca</label><select id="marca"><option value="">Elige marca</option></select></div>
+<div><label for="modelo">2. Modelo</label><select id="modelo" disabled><option value="">Elige modelo</option></select></div>
+<div><label for="generacion">3. Año / generación</label><select id="generacion" disabled><option value="">Elige año</option></select></div>
+<div><label for="version">4. Motor</label><select id="version" disabled><option value="">Elige motor</option></select></div>
+</div>
+<p class="ayuda">¿No sabes tu motor? Mira la potencia en la ficha técnica (viene en kW: multiplica por 1,36 para pasar a CV).</p>
+<div id="resultadoRepro" aria-live="polite"></div>
+<p class="ayuda"><a href="#tabla">¿No sale tu coche? Mira la tabla de todos los motores.</a></p>
+</div>
+<h2 id="tabla">Todos los motores</h2>
 <table><tr><th>Motor</th><th>De serie</th><th>Stage 1</th></tr>${filas}</table>
 ${avisoLegal}`,
 }));

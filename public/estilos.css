@@ -38,3 +38,4 @@ td small{color:var(--suave)}
 select:disabled{opacity:.45}
 .elegido{margin-top:14px;padding:10px 12px;border-left:3px solid var(--naranja);background:#181818;border-radius:6px;font-size:15px}
 .elegido small{color:var(--suave)}
+.tabla-repro{margin-top:12px}

@@ -1,0 +1,1138 @@
+[
+ {
+  "marca": "Audi",
+  "modelos": [
+   {
+    "modelo": "A3",
+    "generaciones": [
+     {
+      "nombre": "A3 8L",
+      "anios": "1996-2003",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 130 CV",
+        "repro": "vw-1-9-tdi-130"
+       }
+      ]
+     },
+     {
+      "nombre": "A3 8P",
+      "anios": "2003-2012",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV bomba-inyector (hasta 2008)",
+        "repro": "vw-2-0-tdi-140-pd"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV common rail (desde 2008)",
+        "repro": "vw-2-0-tdi-cr-140"
+       },
+       {
+        "nombre": "1.6 TDI 105 CV (desde 2009)",
+        "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     },
+     {
+      "nombre": "A3 8V",
+      "anios": "2012-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "BMW",
+  "modelos": [
+   {
+    "modelo": "Serie 1",
+    "generaciones": [
+     {
+      "nombre": "Serie 1 F20",
+      "anios": "2011-2015",
+      "motores": [
+       {
+        "nombre": "120d 184 CV",
+        "repro": "bmw-320d-184-n47"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Serie 3",
+    "generaciones": [
+     {
+      "nombre": "Serie 3 F30 / F31",
+      "anios": "2012-2015",
+      "motores": [
+       {
+        "nombre": "320d 184 CV",
+        "repro": "bmw-320d-184-n47"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Serie 4",
+    "generaciones": [
+     {
+      "nombre": "Serie 4 F32",
+      "anios": "2013-2015",
+      "motores": [
+       {
+        "nombre": "420d 184 CV",
+        "repro": "bmw-320d-184-n47"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Citroën",
+  "modelos": [
+   {
+    "modelo": "Berlingo",
+    "generaciones": [
+     {
+      "nombre": "Berlingo II",
+      "anios": "2008-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C3",
+    "generaciones": [
+     {
+      "nombre": "C3 III",
+      "anios": "2016-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 110 CV",
+        "repro": "psa-1-2-puretech-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C4",
+    "generaciones": [
+     {
+      "nombre": "C4 I",
+      "anios": "2004-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     },
+     {
+      "nombre": "C4 II",
+      "anios": "2014-2018",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C4 Cactus",
+    "generaciones": [
+     {
+      "nombre": "C4 Cactus",
+      "anios": "2014-2020",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 110 CV",
+        "repro": "psa-1-2-puretech-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C4 Picasso",
+    "generaciones": [
+     {
+      "nombre": "C4 Picasso I",
+      "anios": "2006-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C5 Aircross",
+    "generaciones": [
+     {
+      "nombre": "C5 Aircross",
+      "anios": "2018-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       },
+       {
+        "nombre": "1.5 BlueHDi 130 CV",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Dacia",
+  "modelos": [
+   {
+    "modelo": "Dokker",
+    "generaciones": [
+     {
+      "nombre": "Dokker",
+      "anios": "2012-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Duster",
+    "generaciones": [
+     {
+      "nombre": "Duster I",
+      "anios": "2010-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Logan",
+    "generaciones": [
+     {
+      "nombre": "Logan II",
+      "anios": "2012-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Sandero",
+    "generaciones": [
+     {
+      "nombre": "Sandero II",
+      "anios": "2012-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Ford",
+  "modelos": [
+   {
+    "modelo": "B-Max",
+    "generaciones": [
+     {
+      "nombre": "B-Max",
+      "anios": "2012-2017",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "C-Max",
+    "generaciones": [
+     {
+      "nombre": "C-Max II",
+      "anios": "2012-2019",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "EcoSport",
+    "generaciones": [
+     {
+      "nombre": "EcoSport",
+      "anios": "2014-2021",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Fiesta",
+    "generaciones": [
+     {
+      "nombre": "Fiesta VI (restyling)",
+      "anios": "2012-2017",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     },
+     {
+      "nombre": "Fiesta VII",
+      "anios": "2017-2021",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Focus",
+    "generaciones": [
+     {
+      "nombre": "Focus III",
+      "anios": "2012-2018",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     },
+     {
+      "nombre": "Focus IV",
+      "anios": "2018-2021",
+      "motores": [
+       {
+        "nombre": "1.0 EcoBoost 125 CV",
+        "repro": "ford-1-0-ecoboost-125"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Mercedes-Benz",
+  "modelos": [
+   {
+    "modelo": "Clase C",
+    "generaciones": [
+     {
+      "nombre": "Clase C W204",
+      "anios": "2009-2014",
+      "motores": [
+       {
+        "nombre": "C 220 CDI 170 CV",
+        "repro": "mercedes-c220-cdi-170"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Clase E",
+    "generaciones": [
+     {
+      "nombre": "Clase E W212",
+      "anios": "2009-2014",
+      "motores": [
+       {
+        "nombre": "E 220 CDI 170 CV",
+        "repro": "mercedes-c220-cdi-170"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Nissan",
+  "modelos": [
+   {
+    "modelo": "Qashqai",
+    "generaciones": [
+     {
+      "nombre": "Qashqai J10",
+      "anios": "2008-2013",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 106 / 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     },
+     {
+      "nombre": "Qashqai J11",
+      "anios": "2014-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Opel",
+  "modelos": [
+   {
+    "modelo": "Astra",
+    "generaciones": [
+     {
+      "nombre": "Astra J",
+      "anios": "2014-2015",
+      "motores": [
+       {
+        "nombre": "1.6 CDTI 136 CV",
+        "repro": "opel-1-6-cdti-136"
+       }
+      ]
+     },
+     {
+      "nombre": "Astra K",
+      "anios": "2015-2019",
+      "motores": [
+       {
+        "nombre": "1.6 CDTI 136 CV",
+        "repro": "opel-1-6-cdti-136"
+       }
+      ]
+     },
+     {
+      "nombre": "Astra L",
+      "anios": "2021-actualidad",
+      "motores": [
+       {
+        "nombre": "1.5 Diesel 130 CV",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Insignia",
+    "generaciones": [
+     {
+      "nombre": "Insignia A",
+      "anios": "2015-2017",
+      "motores": [
+       {
+        "nombre": "1.6 CDTI 136 CV",
+        "repro": "opel-1-6-cdti-136"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Mokka X",
+    "generaciones": [
+     {
+      "nombre": "Mokka X",
+      "anios": "2016-2019",
+      "motores": [
+       {
+        "nombre": "1.6 CDTI 136 CV",
+        "repro": "opel-1-6-cdti-136"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Zafira",
+    "generaciones": [
+     {
+      "nombre": "Zafira C",
+      "anios": "2014-2019",
+      "motores": [
+       {
+        "nombre": "1.6 CDTI 136 CV",
+        "repro": "opel-1-6-cdti-136"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Peugeot",
+  "modelos": [
+   {
+    "modelo": "207",
+    "generaciones": [
+     {
+      "nombre": "207",
+      "anios": "2006-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "208",
+    "generaciones": [
+     {
+      "nombre": "208 I",
+      "anios": "2014-2019",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 110 CV",
+        "repro": "psa-1-2-puretech-110"
+       }
+      ]
+     },
+     {
+      "nombre": "208 II",
+      "anios": "2019-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "2008",
+    "generaciones": [
+     {
+      "nombre": "2008 I",
+      "anios": "2014-2019",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 110 CV",
+        "repro": "psa-1-2-puretech-110"
+       },
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       }
+      ]
+     },
+     {
+      "nombre": "2008 II",
+      "anios": "2019-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       },
+       {
+        "nombre": "1.5 BlueHDi 130 CV",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "307",
+    "generaciones": [
+     {
+      "nombre": "307",
+      "anios": "2004-2008",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "308",
+    "generaciones": [
+     {
+      "nombre": "308 I",
+      "anios": "2007-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     },
+     {
+      "nombre": "308 II",
+      "anios": "2013-2021",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 110 CV",
+        "repro": "psa-1-2-puretech-110"
+       },
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       },
+       {
+        "nombre": "1.5 BlueHDi 130 CV (desde 2017)",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "3008",
+    "generaciones": [
+     {
+      "nombre": "3008 I",
+      "anios": "2009-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     },
+     {
+      "nombre": "3008 II",
+      "anios": "2016-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       },
+       {
+        "nombre": "1.5 BlueHDi 130 CV",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "5008",
+    "generaciones": [
+     {
+      "nombre": "5008 I",
+      "anios": "2009-2010",
+      "motores": [
+       {
+        "nombre": "1.6 HDi 110 CV",
+        "repro": "psa-1-6-hdi-110"
+       }
+      ]
+     },
+     {
+      "nombre": "5008 II",
+      "anios": "2017-2022",
+      "motores": [
+       {
+        "nombre": "1.2 PureTech 130 CV",
+        "repro": "psa-1-2-puretech-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "508",
+    "generaciones": [
+     {
+      "nombre": "508 II",
+      "anios": "2018-2023",
+      "motores": [
+       {
+        "nombre": "1.5 BlueHDi 130 CV",
+        "repro": "psa-1-5-bluehdi-130"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Renault",
+  "modelos": [
+   {
+    "modelo": "Captur",
+    "generaciones": [
+     {
+      "nombre": "Captur I",
+      "anios": "2013-2019",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       },
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Clio",
+    "generaciones": [
+     {
+      "nombre": "Clio IV",
+      "anios": "2012-2019",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       },
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Fluence",
+    "generaciones": [
+     {
+      "nombre": "Fluence",
+      "anios": "2010-2016",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Kadjar",
+    "generaciones": [
+     {
+      "nombre": "Kadjar",
+      "anios": "2015-2018",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Mégane",
+    "generaciones": [
+     {
+      "nombre": "Mégane III",
+      "anios": "2008-2016",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 90 CV",
+        "repro": "renault-1-5-dci-90"
+       },
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Scénic",
+    "generaciones": [
+     {
+      "nombre": "Scénic III",
+      "anios": "2009-2016",
+      "motores": [
+       {
+        "nombre": "1.5 dCi 110 CV",
+        "repro": "renault-1-5-dci-110"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Seat",
+  "modelos": [
+   {
+    "modelo": "Altea",
+    "generaciones": [
+     {
+      "nombre": "Altea",
+      "anios": "2004-2010",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Ibiza",
+    "generaciones": [
+     {
+      "nombre": "Ibiza 6L",
+      "anios": "2002-2008",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 130 CV (FR)",
+        "repro": "vw-1-9-tdi-130"
+       }
+      ]
+     },
+     {
+      "nombre": "Ibiza 6J",
+      "anios": "2009-2015",
+      "motores": [
+       {
+        "nombre": "1.6 TDI 105 CV",
+        "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "León",
+    "generaciones": [
+     {
+      "nombre": "León I",
+      "anios": "1999-2005",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 130 CV",
+        "repro": "vw-1-9-tdi-130"
+       }
+      ]
+     },
+     {
+      "nombre": "León II (1P)",
+      "anios": "2005-2012",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV bomba-inyector (hasta 2010)",
+        "repro": "vw-2-0-tdi-140-pd"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV common rail (desde 2010)",
+        "repro": "vw-2-0-tdi-cr-140"
+       },
+       {
+        "nombre": "1.6 TDI 105 CV (desde 2010)",
+        "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     },
+     {
+      "nombre": "León III (5F)",
+      "anios": "2012-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Skoda",
+  "modelos": [
+   {
+    "modelo": "Fabia",
+    "generaciones": [
+     {
+      "nombre": "Fabia II",
+      "anios": "2010-2014",
+      "motores": [
+       {
+        "nombre": "1.6 TDI 105 CV",
+        "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Octavia",
+    "generaciones": [
+     {
+      "nombre": "Octavia II",
+      "anios": "2004-2013",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV bomba-inyector (hasta 2008)",
+        "repro": "vw-2-0-tdi-140-pd"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV common rail (desde 2009)",
+        "repro": "vw-2-0-tdi-cr-140"
+       }
+      ]
+     },
+     {
+      "nombre": "Octavia III",
+      "anios": "2013-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "marca": "Volkswagen",
+  "modelos": [
+   {
+    "modelo": "Bora",
+    "generaciones": [
+     {
+      "nombre": "Bora",
+      "anios": "2000-2005",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 130 CV",
+        "repro": "vw-1-9-tdi-130"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Golf",
+    "generaciones": [
+     {
+      "nombre": "Golf IV",
+      "anios": "2000-2003",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 130 CV",
+        "repro": "vw-1-9-tdi-130"
+       }
+      ]
+     },
+     {
+      "nombre": "Golf V",
+      "anios": "2003-2008",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV",
+        "repro": "vw-2-0-tdi-140-pd"
+       }
+      ]
+     },
+     {
+      "nombre": "Golf VI",
+      "anios": "2008-2012",
+      "motores": [
+       {
+        "nombre": "1.6 TDI 105 CV",
+        "repro": "vw-1-6-tdi-105"
+       },
+       {
+        "nombre": "2.0 TDI 140 CV",
+        "repro": "vw-2-0-tdi-cr-140"
+       }
+      ]
+     },
+     {
+      "nombre": "Golf VII",
+      "anios": "2012-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Passat",
+    "generaciones": [
+     {
+      "nombre": "Passat B6",
+      "anios": "2005-2008",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 140 CV bomba-inyector",
+        "repro": "vw-2-0-tdi-140-pd"
+       }
+      ]
+     },
+     {
+      "nombre": "Passat B7",
+      "anios": "2010-2014",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 140 CV",
+        "repro": "vw-2-0-tdi-cr-140"
+       }
+      ]
+     },
+     {
+      "nombre": "Passat B8",
+      "anios": "2014-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Polo",
+    "generaciones": [
+     {
+      "nombre": "Polo 6R",
+      "anios": "2009-2015",
+      "motores": [
+       {
+        "nombre": "1.6 TDI 105 CV",
+        "repro": "vw-1-6-tdi-105"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Tiguan",
+    "generaciones": [
+     {
+      "nombre": "Tiguan I",
+      "anios": "2008-2015",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 140 CV",
+        "repro": "vw-2-0-tdi-cr-140"
+       }
+      ]
+     },
+     {
+      "nombre": "Tiguan II",
+      "anios": "2016-2020",
+      "motores": [
+       {
+        "nombre": "2.0 TDI 150 CV",
+        "repro": "vw-2-0-tdi-150"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "modelo": "Touran",
+    "generaciones": [
+     {
+      "nombre": "Touran I",
+      "anios": "2003-2010",
+      "motores": [
+       {
+        "nombre": "1.9 TDI 105 CV",
+        "repro": "vw-1-9-tdi-105"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
