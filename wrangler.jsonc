@@ -3,6 +3,10 @@
   "name": "swap-o-chatarra",
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
+  "routes": [
+    { "pattern": "swapochatarra.com", "custom_domain": true },
+    { "pattern": "www.swapochatarra.com", "custom_domain": true }
+  ],
   "build": {
     "command": "node build.js"
   },
