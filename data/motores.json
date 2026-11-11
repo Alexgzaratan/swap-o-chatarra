@@ -116,7 +116,29 @@
         "titulo": "Autofácil – Solución de Stellantis para el 1.2 PureTech",
         "url": "https://www.autofacil.es/mantenimiento/stellantis-solucion-motor-puretech/688560.html"
       }
-    ]
+    ],
+    "coste": {
+      "taller": [
+        400,
+        1000
+      ],
+      "kit": null,
+      "nota": "La correa va bañada en aceite y lleva más mano de obra que una correa seca. Los precios publicados van de unos 400 € a 1.000 € según el taller y lo que se cambie.",
+      "fuentes": [
+        {
+          "titulo": "Motor16 – Cambio preventivo de la correa bañada en aceite",
+          "url": "https://www.motor16.com/las-ultimas-noticias/correa-banada-en-aceite-60000-km/"
+        },
+        {
+          "titulo": "TotalRenting – Citroën C3 Aircross 1.2 PureTech",
+          "url": "https://totalrenting.es/problemas/citroen-problemas/c3-problemas/problemas-c3-aircross/fallo-motor-citroen-c3-aircross/"
+        },
+        {
+          "titulo": "TotalRenting – Peugeot 208 1.2 PureTech",
+          "url": "https://totalrenting.es/problemas/peugeot-problemas/208-problemas/fallo-motor-208-1-2-puretech/"
+        }
+      ]
+    }
   },
   {
     "slug": "ford-1-0-ecoboost",

@@ -1,9 +1,43 @@
 {
   "sitio": "Swap o Chatarra",
   "url_base": "https://swap-o-chatarra.alexgzaratan.workers.dev",
-  "lema": "Calculadoras para mantener tu coche sin sustos",
+  "lema": "Calculadoras de distribución y repro por coche",
   "afiliado": {
     "tienda": "Oscaro",
     "enlace_kit_distribucion": ""
+  },
+  "youtube": "",
+  "google_site_verification": "",
+  "analitica": {
+    "cloudflare_token": ""
+  },
+  "coste_distribucion": {
+    "taller": [
+      250,
+      600
+    ],
+    "kit": [
+      100,
+      400
+    ],
+    "nota": "Precios orientativos en España según varias guías. Cambian con el taller y la zona. Pide el presupuesto con bomba de agua incluida.",
+    "fuentes": [
+      {
+        "titulo": "Motor.es – Precio del cambio de la correa de distribución",
+        "url": "https://www.motor.es/practicos/precio-cambio-correa-distribucion-202064518.html"
+      },
+      {
+        "titulo": "Carnovo – Cuánto cuesta cambiar la correa de distribución",
+        "url": "https://carnovo.com/es/guias/cuanto-cuesta-cambiar-correa-distribucion"
+      },
+      {
+        "titulo": "Páxinas Galegas – Precio medio en España",
+        "url": "https://www.paxinasgalegas.es/blog/motor/cuando-cambiar-la-correa-de-distribucion-de-un-coche-cuanto-cuesta-fb139.html"
+      }
+    ]
+  },
+  "destacado": {
+    "motor": "vw-1-9-tdi-pd",
+    "titulo": "El 1.9 TDI, coche a coche"
   }
 }

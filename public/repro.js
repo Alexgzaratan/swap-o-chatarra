@@ -17,9 +17,9 @@
     var r = repro.find(function (y) { return y.slug === x.repro; });
     var pct = Math.round(((r.cv1[0] + r.cv1[1]) / 2 / r.cv - 1) * 100);
     var dCv = Math.round((r.cv1[0] + r.cv1[1]) / 2 - r.cv), dNm = Math.round((r.nm1[0] + r.nm1[1]) / 2 - r.nm);
-    out.innerHTML = '<div class="gana">+' + dCv + ' CV y +' + dNm + ' Nm <small>(alrededor de un ' + pct + ' % más)</small></div>' +
+    out.innerHTML = '<div class="gana">+' + dCv + ' CV y +' + dNm + ' Nm <small>alrededor de un ' + pct + ' % más</small></div>' +
       '<p class="nota">Motor ' + esc(r.nombre) + ' · códigos ' + esc(r.codigos) + '</p>' +
       barra('Potencia', r.cv, r.cv1, 'CV') + barra('Par', r.nm, r.nm1, 'Nm') +
-      '<a class="boton" href="/repro/' + r.slug + '/">Ver ficha completa y lo que dice la ley</a>';
+      '<a class="boton" href="' + x.url + '">Ver la página de tu coche y lo que dice la ley</a>';
   });
 })();
